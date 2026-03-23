@@ -1,30 +1,33 @@
 {
-	"amani" : {
+	"amani" :
+	{
 		"class" : "battlemage",
-		"spellbook" : [
-			"viewEarth"
-		],
+		"spellbook": [ "viewEarth" ],
 		"female" : true,
 		"special" : false,
 		"onlyOnWaterMap" : false,
 		"onlyOnMapWithoutWater" : false,
 
-		"texts" : {
+		"texts" :
+		{
 			"name" : "Amani",
 			"biography" : "The Great Teacher Amani is known for surprisingly caring attitude and knowledge of magic. It is no wonder that shamans in her army are able to cast various different spells for different occasions.",
-			"specialty" : {
+			"specialty" :
+			{
 				"description" : "Ogre Shamans can now cast Advanced Antimagic, Advanced Haste and Advanced Slow. Increases the amount of casts by 1.",
 				"tooltip" : "Creautre Bonus: Ogre Magi",
 				"name" : "Ogre Magi"
 			}
 		},
-		"images" : {
+		"images" :
+		{
 			"specialtySmall" : "heroes/stronghold/amani/specSmall.png",
 			"specialtyLarge" : "heroes/stronghold/amani/specLarge.png",
 			"large" : "heroes/stronghold/amani/large.png",
 			"small" : "heroes/stronghold/amani/small.png"
 		},
-		"army" : [
+		"army" :
+		[
 			{
 				"creature" : "goblin",
 				"max" : 30,
@@ -41,7 +44,8 @@
 				"min" : 2
 			}
 		],
-		"skills" : [
+		"skills" :
+		[
 			{
 				"level" : "basic",
 				"skill" : "infliction"
@@ -51,14 +55,15 @@
 				"skill" : "logistics"
 			}
 		],
-
+		
 		"specialty" : {
 			"bonuses" : {
-				"castsAntimagic" : {
+				"castsAntimagic" :
+				{
 					"type" : "SPELLCASTER",
 					"subtype" : "spell.antiMagic",
 					"val" : 2,
-					"limiters" : [
+					"limiters": [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "ogreMage",
@@ -66,11 +71,12 @@
 						}
 					]
 				},
-				"castsHaste" : {
+				"castsHaste" :
+				{
 					"type" : "SPELLCASTER",
 					"subtype" : "spell.haste",
 					"val" : 2,
-					"limiters" : [
+					"limiters": [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "ogreMage",
@@ -78,11 +84,12 @@
 						}
 					]
 				},
-				"castsSlow" : {
+				"castsSlow" :
+				{
 					"type" : "SPELLCASTER",
 					"subtype" : "spell.slow",
 					"val" : 2,
-					"limiters" : [
+					"limiters": [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "ogreMage",
@@ -90,10 +97,11 @@
 						}
 					]
 				},
-				"castsCount" : {
+				"castsCount" :
+				{
 					"type" : "CASTS",
 					"val" : 1,
-					"limiters" : [
+					"limiters": [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "ogreMage",

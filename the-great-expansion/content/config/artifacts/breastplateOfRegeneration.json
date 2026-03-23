@@ -7,7 +7,8 @@
 				"val" : 6,
 				"valueType" : "BASE_NUMBER"
 			},
-			"regenerate" : {
+			"regenerate" : 
+			{
 				"type" : "HP_REGENERATION",
 				"val" : 75
 			}
