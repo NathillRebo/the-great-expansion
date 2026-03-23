@@ -20,7 +20,7 @@
 							"bonusSourceType" : "SPELL_EFFECT",
 							"bonusSourceID" : "spell.protectFire"
 						}
-					],
+					]
 				},
 				"waterDefense" : {
 					"type" : "PRIMARY_SKILL",
@@ -34,7 +34,7 @@
 							"bonusSourceType" : "SPELL_EFFECT",
 							"bonusSourceID" : "spell.protectWater"
 						}
-					],
+					]
 				},
 				"airSpeed" : {
 					"type" : "STACKS_SPEED",
@@ -47,7 +47,7 @@
 							"bonusSourceType" : "SPELL_EFFECT",
 							"bonusSourceID" : "spell.protectAir"
 						}
-					],
+					]
 				},
 				"earthResistance" : {
 					"type" : "MAGIC_RESISTANCE",
@@ -60,17 +60,25 @@
 							"bonusSourceType" : "SPELL_EFFECT",
 							"bonusSourceID" : "spell.protectEarth"
 						}
-					],
+					]
 				}
 			}
 		},
 		"basic" : {
 			"description" : "{Basic Elemental Affinity}\n\nUnits under the hero's control receive additional bonuses when affected by Protect from Element spells:\nProtect from Fire increases Attack by 1.\nProtect from Water increases Defense by 1.\nProtect from Air increases Speed by 1.\nProtect from Earth grants 6% chance to resist incoming spell.",
 			"effects" : {
-				"fireAttack" : { "val" : 1 },
-				"waterDefense" : { "val" : 1 },
-				"airSpeed" : { "val" : 1 },
-				"earthResistance" : { "val" : 6 }
+				"fireAttack" : {
+					"val" : 1
+				},
+				"waterDefense" : {
+					"val" : 1
+				},
+				"airSpeed" : {
+					"val" : 1
+				},
+				"earthResistance" : {
+					"val" : 6
+				}
 			},
 			"images" : {
 				"small" : "skills/elementalAffinity/icons/small/basic",
@@ -82,10 +90,18 @@
 		"advanced" : {
 			"description" : "{Advanced Elemental Affinity}\n\nUnits under the hero's control receive additional bonuses when affected by Protect from Element spells:\nProtect from Fire increases Attack by 2.\nProtect from Water increases Defense by 2.\nProtect from Air increases Speed by 1.\nProtect from Earth grants 12% chance to resist incoming spell.",
 			"effects" : {
-				"fireAttack" : { "val" : 2 },
-				"waterDefense" : { "val" : 2 },
-				"airSpeed" : { "val" : 1 },
-				"earthResistance" : { "val" : 12 }
+				"fireAttack" : {
+					"val" : 2
+				},
+				"waterDefense" : {
+					"val" : 2
+				},
+				"airSpeed" : {
+					"val" : 1
+				},
+				"earthResistance" : {
+					"val" : 12
+				}
 			},
 			"images" : {
 				"small" : "skills/elementalAffinity/icons/small/advanced",
@@ -97,10 +113,18 @@
 		"expert" : {
 			"description" : "{Expert Elemental Affinity}\n\nUnits under the hero's control receive additional bonuses when affected by Protect from Element spells:\nProtect from Fire increases Attack by 3.\nProtect from Water increases Defense by 3.\nProtect from Air increases Speed by 2.\nProtect from Earth grants 17% chance to resist incoming spell.",
 			"effects" : {
-				"fireAttack" : { "val" : 3 },
-				"waterDefense" : { "val" : 3 },
-				"airSpeed" : { "val" : 2 },
-				"earthResistance" : { "val" : 17 }
+				"fireAttack" : {
+					"val" : 3
+				},
+				"waterDefense" : {
+					"val" : 3
+				},
+				"airSpeed" : {
+					"val" : 2
+				},
+				"earthResistance" : {
+					"val" : 17
+				}
 			},
 			"images" : {
 				"small" : "skills/elementalAffinity/icons/small/expert",

@@ -18,7 +18,7 @@
 					"subtype" : "spell.bloodlust",
 					"type" : "SPECIAL_ADD_VALUE_ENCHANT"
 				},
-				"haste": {
+				"haste" : {
 					"addInfo" : 0,
 					"subtype" : "spell.haste",
 					"type" : "SPECIAL_ADD_VALUE_ENCHANT"
@@ -44,7 +44,7 @@
 				},
 				"counterstrike" : {
 					"addInfo" : 0
-				},
+				}
 			},
 			"images" : {
 				"small" : "skills/shamanicLore/icons/small/basic",
@@ -67,7 +67,7 @@
 				},
 				"counterstrike" : {
 					"addInfo" : 0
-				},
+				}
 			},
 			"images" : {
 				"small" : "skills/shamanicLore/icons/small/advanced",
@@ -90,7 +90,7 @@
 				},
 				"counterstrike" : {
 					"addInfo" : 1
-				},
+				}
 			},
 			"images" : {
 				"small" : "skills/shamanicLore/icons/small/expert",

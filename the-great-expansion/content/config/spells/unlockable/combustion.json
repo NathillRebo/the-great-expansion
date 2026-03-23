@@ -2,7 +2,7 @@
 	"combustion" : {
 		"type" : "combat",
 		"name" : "Combustion",
-		"targetType": "CREATURE",
+		"targetType" : "CREATURE",
 		"school" : {
 			"air" : false,
 			"earth" : false,
@@ -10,9 +10,8 @@
 			"water" : false
 		},
 		"level" : 1,
-        "defaultGainChance": 8, 
-        "gainChance":
-        {
+		"defaultGainChance" : 8,
+		"gainChance" : {
 			"castle" : 5,
 			"rampart" : 5,
 			"tower" : 8,
@@ -22,7 +21,7 @@
 			"stronghold" : 7,
 			"fortress" : 7,
 			"conflux" : 10
-        },
+		},
 		"power" : 5,
 		"flags" : {
 			"damage" : true,
@@ -35,19 +34,25 @@
 			"iconEffect" : "spells/combustion/effect"
 		},
 		"animation" : {
-			"hit" : ["C09SPF3"]
+			"hit" : [
+				"C09SPF3"
+			]
 		},
 		"sounds" : {
-		   "cast" : "LANDKILL"
+			"cast" : "LANDKILL"
 		},
 		"levels" : {
 			"base" : {
 				"range" : "0",
 				"power" : 0,
 				"battleEffects" : {
-					"directDamage" : {"type":"core:damage"}
+					"directDamage" : {
+						"type" : "core:damage"
+					}
 				},
-				"targetModifier":{"smart":true},
+				"targetModifier" : {
+					"smart" : true
+				},
 				"cost" : 5
 			},
 			"none" : {

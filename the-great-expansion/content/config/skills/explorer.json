@@ -25,8 +25,12 @@
 		"basic" : {
 			"description" : "{Basic Explorer}\n\nIncreases movement points on land and sea by 85.",
 			"effects" : {
-				"movement" : { "val" : 85 },
-				"movementSea" : { "val" : 85 }
+				"movement" : {
+					"val" : 85
+				},
+				"movementSea" : {
+					"val" : 85
+				}
 			},
 			"images" : {
 				"small" : "skills/explorer/icons/small/basic",
@@ -38,8 +42,12 @@
 		"advanced" : {
 			"description" : "{Advanced Explorer}\n\nIncreases movement points on land and sea by 170.",
 			"effects" : {
-				"movement" : { "val" : 170 },
-				"movementSea" : { "val" : 170 }
+				"movement" : {
+					"val" : 170
+				},
+				"movementSea" : {
+					"val" : 170
+				}
 			},
 			"images" : {
 				"small" : "skills/explorer/icons/small/advanced",
@@ -51,8 +59,12 @@
 		"expert" : {
 			"description" : "{Expert Explorer}\n\nIncreases movement points on land and sea by 250.",
 			"effects" : {
-				"movement" : { "val" : 250 },
-				"movementSea" : { "val" : 250 }
+				"movement" : {
+					"val" : 250
+				},
+				"movementSea" : {
+					"val" : 250
+				}
 			},
 			"images" : {
 				"small" : "skills/explorer/icons/small/expert",

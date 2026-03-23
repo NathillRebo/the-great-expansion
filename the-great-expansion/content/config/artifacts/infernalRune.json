@@ -11,11 +11,10 @@
 				"val" : 20,
 				"valueType" : "PERCENT_TO_ALL"
 			},
-			"fireShield" :
-			{
+			"fireShield" : {
 				"type" : "FIRE_SHIELD",
 				"val" : 20
-			},
+			}
 		},
 		"type" : [
 			"CREATURE"
