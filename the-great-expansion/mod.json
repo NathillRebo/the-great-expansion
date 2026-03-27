@@ -56,12 +56,12 @@
 		"name" : "Великое Дополнение",
 		"description" : "Этот мод добавляет:\n\n112 новых артефактов\n\n19 новых героев\n\n43 новых вторичных навыков\n\n7 новых объектов карты\n\n10 новых заклинаний\n\n\n\nМод также изменяет некоторые игровые механики:\n\nСущества могут использовать артефакты\n\nДля получения дополнительной информации прочитайте файл THE GREAT EXPANSION.pdf.",
 		"translations" : [
-            "translation/russian/artifacts.json",
-            "translation/russian/heroes.json",
-            "translation/russian/mapObjects.json",
-            "translation/russian/secondarySkills.json",
-            "translation/russian/spells.json"
-        ]
+			"translation/russian/artifacts.json",
+			"translation/russian/heroes.json",
+			"translation/russian/mapObjects.json",
+			"translation/russian/secondarySkills.json",
+			"translation/russian/spells.json"
+		]
 	},
 	"artifacts" : [
 		"config/artifacts/aetherwingCape",
