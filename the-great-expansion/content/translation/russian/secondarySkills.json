@@ -3,7 +3,7 @@
 	"skill.the-great-expansion.absoluteDefense.description.basic" : "{Основная Абсолютная Оборона}\n\nСущества находящиеся под контролем героя, получают на 20% меньше Урона от физических атак в течение первого раунда боя.",
 	"skill.the-great-expansion.absoluteDefense.description.expert" : "{Эсперт Абсолютная Оборона}\n\nСущества находящиеся под контролем героя, получают на 40% меньше Урона от физических атак в течение первого раунда боя.",
 	"skill.the-great-expansion.absoluteDefense.name" : "Абсолютная Оборона",
-	"skill.the-great-expansion.arcana.description.advanced" : "{Продвинутый Аркана}\n\Увеличивает эффективность Заклинаний героя во время боя на 15%.",
+	"skill.the-great-expansion.arcana.description.advanced" : "{Продвинутый Аркана}\n\nУвеличивает эффективность Заклинаний героя во время боя на 15%.",
 	"skill.the-great-expansion.arcana.description.basic" : "{Основная Аркана}\n\nУвеличивает эффективность Заклинаний героя во время боя на 7,5%.",
 	"skill.the-great-expansion.arcana.description.expert" : "{Эксперт Аркана}\n\nУвеличивает эффективность Заклинаний героя во время боя на 22,5%.",
 	"skill.the-great-expansion.arcana.name" : "Аркана",
