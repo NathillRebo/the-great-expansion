@@ -1,33 +1,30 @@
 {
-	"lilian" :
-	{
+	"lilian" : {
 		"class" : "deathknight",
-		"spellbook": [ "magicArrow" ],
+		"spellbook" : [
+			"magicArrow"
+		],
 		"female" : true,
 		"special" : false,
 		"onlyOnWaterMap" : false,
 		"onlyOnMapWithoutWater" : false,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Lilian",
 			"biography" : "Lilian died in a duel, and promised herself she will never lose again. She started dabbling with curses and learned quite unique ability: her enemies are easier to kill with every curse she inflicts upon them.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Enemies receive 10% more damage from attacks for each of the following curses that afflict them: Curse, Weakness, Disrupting Ray, Slow, Venom, Rend, Misfortune, Sorrow.",
 				"tooltip" : "Unique Bonus: Cursemaster",
 				"name" : "Cursemaster"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "heroes/necropolis/lilian/specSmall.png",
 			"specialtyLarge" : "heroes/necropolis/lilian/specLarge.png",
 			"large" : "heroes/necropolis/lilian/large.png",
 			"small" : "heroes/necropolis/lilian/small.png"
 		},
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "skeleton",
 				"max" : 30,
@@ -44,8 +41,7 @@
 				"min" : 4
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "necromancy"
@@ -71,7 +67,7 @@
 							"bonusSourceType" : "SPELL_EFFECT",
 							"bonusSourceID" : "spell.curse"
 						}
-					],
+					]
 				},
 				"weaknessDamage" : {
 					"subtype" : "damageTypeAll",
@@ -86,7 +82,7 @@
 							"bonusSourceType" : "SPELL_EFFECT",
 							"bonusSourceID" : "spell.weakness"
 						}
-					],
+					]
 				},
 				"slowDamage" : {
 					"subtype" : "damageTypeAll",
@@ -101,7 +97,7 @@
 							"bonusSourceType" : "SPELL_EFFECT",
 							"bonusSourceID" : "spell.slow"
 						}
-					],
+					]
 				},
 				"disruptDamage" : {
 					"subtype" : "damageTypeAll",
@@ -116,7 +112,7 @@
 							"bonusSourceType" : "SPELL_EFFECT",
 							"bonusSourceID" : "spell.disruptingRay"
 						}
-					],
+					]
 				},
 				"venomDamage" : {
 					"subtype" : "damageTypeAll",
@@ -131,7 +127,7 @@
 							"bonusSourceType" : "SPELL_EFFECT",
 							"bonusSourceID" : "spell.venom"
 						}
-					],
+					]
 				},
 				"rendDamage" : {
 					"subtype" : "damageTypeAll",
@@ -146,7 +142,7 @@
 							"bonusSourceType" : "SPELL_EFFECT",
 							"bonusSourceID" : "spell.rend"
 						}
-					],
+					]
 				},
 				"misfortuneDamage" : {
 					"subtype" : "damageTypeAll",
@@ -161,7 +157,7 @@
 							"bonusSourceType" : "SPELL_EFFECT",
 							"bonusSourceID" : "spell.misfortune"
 						}
-					],
+					]
 				},
 				"sorrowDamage" : {
 					"subtype" : "damageTypeAll",
@@ -176,7 +172,7 @@
 							"bonusSourceType" : "SPELL_EFFECT",
 							"bonusSourceID" : "spell.sorrow"
 						}
-					],
+					]
 				}
 			}
 		}

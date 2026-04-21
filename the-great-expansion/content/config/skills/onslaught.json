@@ -20,7 +20,9 @@
 		"basic" : {
 			"description" : "{Basic Onslaught}\n\nUnits under the hero's control receive a bonus of +3 to Attack and +1 to Speed during the first round of combat.",
 			"effects" : {
-				"main" : { "addInfo" : 1 }
+				"main" : {
+					"addInfo" : 1
+				}
 			},
 			"images" : {
 				"small" : "skills/onslaught/icons/small/basic",
@@ -32,7 +34,9 @@
 		"advanced" : {
 			"description" : "{Advanced Onslaught}\n\nUnits under the hero's control receive a bonus of +6 to Attack and +2 to Speed during the first round of combat.",
 			"effects" : {
-				"main" : { "addInfo" : 2 }
+				"main" : {
+					"addInfo" : 2
+				}
 			},
 			"images" : {
 				"small" : "skills/onslaught/icons/small/advanced",
@@ -44,7 +48,9 @@
 		"expert" : {
 			"description" : "{Expert Onslaught}\n\nUnits under the hero's control receive a bonus of +9 to Attack and +3 to Speed during the first round of combat.",
 			"effects" : {
-				"main" : { "addInfo" : 3 }
+				"main" : {
+					"addInfo" : 3
+				}
 			},
 			"images" : {
 				"small" : "skills/onslaught/icons/small/expert",

@@ -19,8 +19,7 @@
 		"class" : "RELIC",
 		"slot" : "TORSO",
 		"value" : 53000,
-		"components": 
-		[
+		"components" : [
 			"axeOfTheJotunns",
 			"shieldOfTheJotunns",
 			"helmOfTheJotunns",

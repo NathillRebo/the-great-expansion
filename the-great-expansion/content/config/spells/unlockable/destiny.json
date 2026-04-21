@@ -1,28 +1,26 @@
 {
-    "destiny":
-    {   
-        "type": "combat",
-        "targetType":"CREATURE",
-        "name": "Destiny",
+	"destiny" : {
+		"type" : "combat",
+		"targetType" : "CREATURE",
+		"name" : "Destiny",
 		"school" : {
 			"air" : false,
 			"earth" : true,
 			"fire" : false,
 			"water" : false
 		},
-        "level": 5,
-        "power": 10,
-        "defaultGainChance": 6, 
-        "gainChance":
-        {
-            "castle" : 0,
+		"level" : 5,
+		"power" : 10,
+		"defaultGainChance" : 6,
+		"gainChance" : {
+			"castle" : 0,
 			"rampart" : 0,
 			"tower" : 0,
 			"inferno" : 12,
 			"necropolis" : 12,
 			"dungeon" : 12,
 			"conflux" : 6
-        },
+		},
 
 		"targetCondition" : {
 			"allOf" : {},
@@ -30,7 +28,7 @@
 			"noneOf" : {}
 		},
 		"flags" : {
-			"negative": true
+			"negative" : true
 		},
 
 		"graphics" : {
@@ -49,12 +47,14 @@
 		"sounds" : {
 			"cast" : "spells/destiny/sfx.wav"
 		},
-		
+
 		"levels" : {
-			"base":{
+			"base" : {
 				"range" : "X",
-				"power": 10, //power value was missing in original files, it's placeholder
-				"targetModifier":{"smart":true},
+				"power" : 10, //power value was missing in original files, it's placeholder
+				"targetModifier" : {
+					"smart" : true
+				},
 				"cumulativeEffects" : {
 					"attack" : {
 						"type" : "PRIMARY_SKILL",
@@ -82,7 +82,7 @@
 
 				"cost" : 28
 			},
-			"advanced":{
+			"advanced" : {
 				"description" : "{Advanced Destiny}\n\nReduces Attack and Defense of all enemy units. This effect stacks and lasts until end of battle.\n\nThe reduction is 1 point greater than from Basic Destiny.",
 
 				"cost" : 28,
@@ -103,8 +103,7 @@
 					}
 				}
 			},
-			"expert":{
-				
+			"expert" : {
 				"description" : "{Expert Destiny}\n\nReduces Attack and Defense of all enemy units. This effect stacks and lasts until end of battle.\n\nThe reduction is 2 points greater than from Basic Destiny.",
 				"cost" : 28,
 				"cumulativeEffects" : {
@@ -125,5 +124,5 @@
 				}
 			}
 		}
-    }
+	}
 }

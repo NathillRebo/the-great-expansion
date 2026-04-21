@@ -2,7 +2,7 @@
 	"blizzard" : {
 		"type" : "combat",
 		"name" : "Blizzard",
-		"targetType": "LOCATION",
+		"targetType" : "LOCATION",
 		"school" : {
 			"air" : false,
 			"earth" : false,
@@ -10,16 +10,15 @@
 			"water" : true
 		},
 		"level" : 5,
-        "defaultGainChance": 11, 
-        "gainChance":
-        {
+		"defaultGainChance" : 11,
+		"gainChance" : {
 			"rampart" : 16,
 			"tower" : 16,
 			"inferno" : 0,
 			"necropolis" : 12,
 			"dungeon" : 12,
 			"conflux" : 12
-        },
+		},
 		"power" : 25,
 		"flags" : {
 			"damage" : true,
@@ -41,13 +40,15 @@
 		"sounds" : {
 			"cast" : "spells/blizzard/sfx.wav"
 		},
-		
+
 		"levels" : {
 			"base" : {
 				"range" : "0,1",
 				"power" : 25,
 				"battleEffects" : {
-					"directDamage" : {"type":"core:damage"},
+					"directDamage" : {
+						"type" : "core:damage"
+					},
 					"debuff" : {
 						"type" : "core:timed",
 						"cumulative" : false,
@@ -66,7 +67,9 @@
 						}
 					}
 				},
-				"targetModifier":{"smart":true},
+				"targetModifier" : {
+					"smart" : true
+				},
 				"cost" : 25
 			},
 			"none" : {
@@ -84,7 +87,9 @@
 				"power" : 50,
 				"cost" : 20,
 				"battleEffects" : {
-					"directDamage" : {"type":"core:damage"},
+					"directDamage" : {
+						"type" : "core:damage"
+					},
 					"debuff" : {
 						"type" : "core:timed",
 						"cumulative" : false,
@@ -102,14 +107,16 @@
 							}
 						}
 					}
-				},
+				}
 			},
 			"expert" : {
 				"description" : "{Expert Blizzard}\n\nDeals water damage to the target and prevents it from casting spells.\n\nDamage inflicted is 75 more than from Basic Blizzard, and reduction is more effective than from Basic Blizzard.",
 				"power" : 100,
 				"cost" : 20,
 				"battleEffects" : {
-					"directDamage" : {"type":"core:damage"},
+					"directDamage" : {
+						"type" : "core:damage"
+					},
 					"debuff" : {
 						"type" : "core:timed",
 						"cumulative" : false,
@@ -127,7 +134,7 @@
 							}
 						}
 					}
-				},
+				}
 			}
 		}
 	}

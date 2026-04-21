@@ -1,26 +1,22 @@
 {
 	"runeOfArcaneMastery" : {
 		"bonuses" : {
-			"castsMassBless" :
-			{
+			"castsMassBless" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.bless",
 				"val" : 3
 			},
-			"castsMassSlow" :
-			{
+			"castsMassSlow" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.slow",
 				"val" : 3
 			},
-			"castsBlind" :
-			{
+			"castsBlind" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.blind",
 				"val" : 3
 			},
-			"castsCount" :
-			{
+			"castsCount" : {
 				"type" : "CASTS",
 				"val" : 2
 			}

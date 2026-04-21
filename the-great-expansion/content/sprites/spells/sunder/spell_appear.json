@@ -1,11 +1,9 @@
 {
 	"basepath" : "spells/sunder/appear/new/",
-	"sequences" :
-	[
+	"sequences" : [
 		{
 			"group" : 0,
-			"frames" :
-			[
+			"frames" : [
 				"1.png",
 				"2.png",
 				"3.png",
@@ -14,7 +12,7 @@
 				"6.png"
 			],
 			"generateShadow" : 0,
-			"generateOverlay" : 0,
+			"generateOverlay" : 0
 		}
 	]
 }

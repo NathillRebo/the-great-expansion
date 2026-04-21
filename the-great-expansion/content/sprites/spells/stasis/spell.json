@@ -1,11 +1,9 @@
 {
 	"basepath" : "spells/stasis/frames/",
-	"sequences" :
-	[
+	"sequences" : [
 		{
 			"group" : 0,
-			"frames" :
-			[
+			"frames" : [
 				"1.png",
 				"3.png",
 				"5.png",
@@ -31,7 +29,7 @@
 				"45.png"
 			],
 			"generateShadow" : 0,
-			"generateOverlay" : 0,
+			"generateOverlay" : 0
 		}
 	]
 }

@@ -1,33 +1,30 @@
 {
-	"rindell" :
-	{
+	"rindell" : {
 		"class" : "druid",
-		"spellbook": [ "visions" ],
+		"spellbook" : [
+			"visions"
+		],
 		"female" : true,
 		"special" : false,
 		"onlyOnWaterMap" : false,
 		"onlyOnMapWithoutWater" : false,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Rindell",
 			"biography" : "Rindell was abandoned as a child and lived with dwarves for a long time, where she learned the ways of mining gold. After a few years, her immense magic abilities have awakened.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "The hero receives +1 Spellpower every 4th level.",
 				"tooltip" : "Unique Bonus: Spellpower",
 				"name" : "Spellpower"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "heroes/rampart/rindell/specSmall.png",
 			"specialtyLarge" : "heroes/rampart/rindell/specLarge.png",
 			"large" : "heroes/rampart/rindell/large.png",
 			"small" : "heroes/rampart/rindell/small.png"
 		},
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "dwarf",
 				"max" : 7,
@@ -44,8 +41,7 @@
 				"min" : 5
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "arcana"

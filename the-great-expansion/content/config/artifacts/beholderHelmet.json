@@ -13,18 +13,20 @@
 				"val" : 3,
 				"valueType" : "BASE_NUMBER"
 			},
-			"spell" :
-			{
+			"spell" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.blind",
 				"val" : 20,
-				"addInfo" : [2,0],
+				"addInfo" : [
+					2,
+					0
+				],
 				"limiters" : [
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "SHOOTER"
 					}
-				],
+				]
 			}
 		},
 		"type" : [

@@ -1,11 +1,9 @@
 {
 	"basepath" : "spells/acidBurst/frames/",
-	"sequences" :
-	[
+	"sequences" : [
 		{
 			"group" : 0,
-			"frames" :
-			[
+			"frames" : [
 				"3.png",
 				"6.png",
 				"9.png",
@@ -27,7 +25,7 @@
 				"57.png"
 			],
 			"generateShadow" : 0,
-			"generateOverlay" : 0,
+			"generateOverlay" : 0
 		}
 	]
 }

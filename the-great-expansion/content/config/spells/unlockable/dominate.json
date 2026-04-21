@@ -2,7 +2,7 @@
 	"dominate" : {
 		"type" : "combat",
 		"name" : "Dominate",
-		"targetType": "CREATURE",
+		"targetType" : "CREATURE",
 		"school" : {
 			"air" : false,
 			"earth" : false,
@@ -10,34 +10,33 @@
 			"water" : false
 		},
 		"level" : 5,
-        "defaultGainChance": 11, 
-        "gainChance":
-        {
+		"defaultGainChance" : 11,
+		"gainChance" : {
 			"rampart" : 7,
 			"tower" : 13,
 			"inferno" : 10,
 			"necropolis" : 0,
 			"dungeon" : 13,
 			"conflux" : 20
-        },
+		},
 		"power" : 60,
 		"flags" : {
 			"negative" : true
 		},
 		"counters" : {
-			"spell.berserk": true
+			"spell.berserk" : true
 		},
 		"targetCondition" : {
 			"allOf" : {
 				"healthValueSpecial" : "absolute"
 			},
 			"noneOf" : {
-				"bonus.SIEGE_WEAPON":"absolute",
-				"bonus.MIND_IMMUNITY":"normal",
-				"bonus.UNDEAD":"normal",
-				"bonus.NON_LIVING":"normal",
-				"bonus.MECHANICAL":"normal",
-				"spell.magicMirror":"normal"
+				"bonus.SIEGE_WEAPON" : "absolute",
+				"bonus.MIND_IMMUNITY" : "normal",
+				"bonus.UNDEAD" : "normal",
+				"bonus.NON_LIVING" : "normal",
+				"bonus.MECHANICAL" : "normal",
+				"spell.magicMirror" : "normal"
 			}
 		},
 		"graphics" : {
@@ -54,7 +53,7 @@
 		},
 
 		"sounds" : {
-			"cast": "HYPNOTIZ"
+			"cast" : "HYPNOTIZ"
 		},
 		"levels" : {
 			"base" : {
@@ -66,7 +65,9 @@
 						"duration" : "N_TURNS"
 					}
 				},
-				"targetModifier":{"smart":true},
+				"targetModifier" : {
+					"smart" : true
+				},
 				"cost" : 32
 			},
 			"none" : {

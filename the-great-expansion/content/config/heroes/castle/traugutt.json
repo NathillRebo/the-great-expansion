@@ -1,32 +1,27 @@
 {
-	"traugutt" :
-	{
+	"traugutt" : {
 		"class" : "knight",
 		"female" : false,
 		"special" : false,
 		"onlyOnWaterMap" : false,
 		"onlyOnMapWithoutWater" : false,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Traugutt",
 			"biography" : "Traugutt is not like typical knight - he fights only because he musts, and every moment outside of warfare is spent on travelling through the various lands of Antagarich. His knowledge of the land and impatience let his soldiers move more quickly..",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases the amount of Movement Points on both land and water by 12.5 per hero level.",
 				"tooltip" : "Skill Bonus: Explorer",
 				"name" : "Explorer"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "heroes/castle/traugutt/specSmall.png",
 			"specialtyLarge" : "heroes/castle/traugutt/specLarge.png",
 			"large" : "heroes/castle/traugutt/large.png",
 			"small" : "heroes/castle/traugutt/small.png"
 		},
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "pikeman",
 				"max" : 20,
@@ -43,8 +38,7 @@
 				"min" : 4
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "explorer"

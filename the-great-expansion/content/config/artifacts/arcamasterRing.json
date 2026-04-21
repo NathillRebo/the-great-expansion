@@ -1,8 +1,7 @@
 {
 	"arcamasterRing" : {
 		"bonuses" : {
-			"spellCastsPerTurn" :
-			{
+			"spellCastsPerTurn" : {
 				"type" : "HERO_SPELL_CASTS_PER_COMBAT_TURN",
 				"val" : 1,
 				"valueType" : "BASE_NUMBER"

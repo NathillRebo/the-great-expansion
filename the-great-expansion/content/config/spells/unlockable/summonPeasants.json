@@ -1,30 +1,30 @@
 {
 	"summonPeasants" : {
-		"type": "combat",
-        "name": "Summon Peasants",
+		"type" : "combat",
+		"name" : "Summon Peasants",
 		"targetType" : "NO_TARGET",
-        "school": {
-            "air": false,
-            "earth": false,
-            "fire": false,
-            "water": true
-        },
-		"level": 1,
-		"defaultGainChance": 7, 
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : true
+		},
+		"level" : 1,
+		"defaultGainChance" : 7,
 		"gainChance" : {
 			"castle" : 15
 		},
 		"power" : 4,
-        "flags": {
-            "indifferent": true
-        },
-        "animation": {
-            "cast": [
-                "C12SPF0.def"
-            ]
-        },
-		"sounds": {
-			"cast": "SUMNELM"
+		"flags" : {
+			"indifferent" : true
+		},
+		"animation" : {
+			"cast" : [
+				"C12SPF0.def"
+			]
+		},
+		"sounds" : {
+			"cast" : "SUMNELM"
 		},
 
 		"graphics" : {
@@ -33,18 +33,18 @@
 			"iconScenarioBonus" : "spells/summonPeasants/scenario",
 			"iconEffect" : "spells/summonPeasants/effect"
 		},
-		
+
 		"levels" : {
 			"base" : {
 				"range" : "X",
-                "cost": 5,
-                "power": 4,
+				"cost" : 5,
+				"power" : 4,
 				"battleEffects" : {
 					"summon" : {
 						"exclusive" : false,
-						"id":"peasant",
+						"id" : "peasant",
 						"summonByHealth" : true,
-						"type":"core:summon"
+						"type" : "core:summon"
 					}
 				}
 			},

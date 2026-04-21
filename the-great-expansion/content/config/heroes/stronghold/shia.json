@@ -1,33 +1,31 @@
 {
-	"shia" :
-	{
+	"shia" : {
 		"class" : "battlemage",
-		"spellbook": [ "quicksand", "landMine" ],
+		"spellbook" : [
+			"quicksand",
+			"landMine"
+		],
 		"female" : true,
 		"special" : false,
 		"onlyOnWaterMap" : false,
 		"onlyOnMapWithoutWater" : false,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Shia",
 			"biography" : "Fighting against Shia is like fighting against the earth itself. Some think that she is a druid in exile, and the Krewlodians look at her with suspicion, she claims she is just a regular battle mage that just happens to know earth magic.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Casts Expert Land Mine and Expert Quicksand at the start of each combat.",
 				"tooltip" : "Unique Bonus: Earthshaper",
 				"name" : "Earthshaper"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "heroes/stronghold/shia/specSmall.png",
 			"specialtyLarge" : "heroes/stronghold/shia/specLarge.png",
 			"large" : "heroes/stronghold/shia/large.png",
 			"small" : "heroes/stronghold/shia/small.png"
 		},
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "goblin",
 				"max" : 30,
@@ -44,8 +42,7 @@
 				"min" : 5
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "shamanicLore"
@@ -55,19 +52,18 @@
 				"skill" : "scouting"
 			}
 		],
-		
+
 		"specialty" : {
 			"bonuses" : {
 				"landMine" : {
-					"type": "OPENING_BATTLE_SPELL",
+					"type" : "OPENING_BATTLE_SPELL",
 					"val" : 15,
-					"subtype": "spell.landMine"
+					"subtype" : "spell.landMine"
 				},
-				"quicksand" : {					
-					"type": "OPENING_BATTLE_SPELL",
+				"quicksand" : {
+					"type" : "OPENING_BATTLE_SPELL",
 					"val" : 15,
-					"subtype": "spell.quicksand"
-
+					"subtype" : "spell.quicksand"
 				}
 			}
 		}

@@ -13,8 +13,7 @@
 				"val" : 4,
 				"valueType" : "BASE_NUMBER"
 			},
-			"extraRetaliation" :
-			{
+			"extraRetaliation" : {
 				"type" : "RANGED_RETALIATION"
 			}
 		},

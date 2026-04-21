@@ -13,11 +13,15 @@
 		"power" : 0,
 
 		"defaultGainChance" : 0,
-		"gainChance" : {
-		},
+		"gainChance" : {},
 
 		"animation" : {
-			"affect":[{ "defName" : "C01SPE0", "transparency" : 0.5}]
+			"affect" : [
+				{
+					"defName" : "C01SPE0",
+					"transparency" : 0.5
+				}
+			]
 		},
 
 		"flags" : {
@@ -36,11 +40,11 @@
 		},
 
 		"graphics" : {
-			"iconEffect" : "spells/repair/Repair_effect1",
+			"iconEffect" : "spells/repair/Repair_effect1"
 		},
 
 		"sounds" : {
-			"cast": "ANIMDEAD"
+			"cast" : "ANIMDEAD"
 		},
 
 		"levels" : {
