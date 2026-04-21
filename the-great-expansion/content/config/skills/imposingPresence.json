@@ -18,17 +18,13 @@
 					"valueType" : "BASE_NUMBER",
 					"val" : 0
 				}
-			}
+			},
 		},
 		"basic" : {
 			"description" : "{Basic Imposing Presence}\n\nIncreases the chance that a neutral stack will join your army.",
 			"effects" : {
-				"diplo" : {
-					"val" : 1
-				},
-				"morale" : {
-					"val" : 0
-				}
+				"diplo" : { "val" : 1 },
+				"morale" : { "val" : 0 }
 			},
 			"images" : {
 				"small" : "skills/imposingPresence/icons/small/basic",
@@ -40,12 +36,8 @@
 		"advanced" : {
 			"description" : "{Advanced Imposing Presence}\n\nIncreases the chance that a neutral stack will join your army. Also increases your army's Morale by 1.",
 			"effects" : {
-				"diplo" : {
-					"val" : 2
-				},
-				"morale" : {
-					"val" : 1
-				}
+				"diplo" : { "val" : 2 },
+				"morale" : { "val" : 1 }
 			},
 			"images" : {
 				"small" : "skills/imposingPresence/icons/small/advanced",
@@ -57,12 +49,8 @@
 		"expert" : {
 			"description" : "{Expert Imposing Presence}\n\nIncreases the chance that a neutral stack will join your army. Also increases your army's Morale by 2.",
 			"effects" : {
-				"diplo" : {
-					"val" : 3
-				},
-				"morale" : {
-					"val" : 2
-				}
+				"diplo" : { "val" : 3 },
+				"morale" : { "val" : 2 }
 			},
 			"images" : {
 				"small" : "skills/imposingPresence/icons/small/expert",

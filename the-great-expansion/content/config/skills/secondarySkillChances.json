@@ -27,8 +27,8 @@
 			"skyMaster" : 6,
 			"stormwind" : 4,
 			"suppression" : 8,
-			"swiftness" : 6,
-			"vitality" : 7
+			"swiftness": 6,
+			"vitality": 7
 		}
 	},
 	"core:cleric" : {
@@ -59,8 +59,8 @@
 			"skyMaster" : 6,
 			"stormwind" : 4,
 			"suppression" : 4,
-			"swiftness" : 3,
-			"vitality" : 3
+			"swiftness": 3,
+			"vitality": 3
 		}
 	},
 	"core:ranger" : {
@@ -91,8 +91,8 @@
 			"skyMaster" : 3,
 			"stormwind" : 7,
 			"suppression" : 3,
-			"swiftness" : 5,
-			"vitality" : 10
+			"swiftness": 5,
+			"vitality": 10
 		}
 	},
 	"core:druid" : {
@@ -123,8 +123,8 @@
 			"skyMaster" : 3,
 			"stormwind" : 7,
 			"suppression" : 1,
-			"swiftness" : 4,
-			"vitality" : 6
+			"swiftness": 4,
+			"vitality": 6
 		}
 	},
 	"core:alchemist" : {
@@ -155,8 +155,8 @@
 			"skyMaster" : 4,
 			"stormwind" : 7,
 			"suppression" : 5,
-			"swiftness" : 5,
-			"vitality" : 8
+			"swiftness": 5,
+			"vitality": 8
 		}
 	},
 	"core:wizard" : {
@@ -187,8 +187,8 @@
 			"skyMaster" : 6,
 			"stormwind" : 5,
 			"suppression" : 3,
-			"swiftness" : 4,
-			"vitality" : 4
+			"swiftness": 4,
+			"vitality": 4
 		}
 	},
 	"core:demoniac" : {
@@ -218,9 +218,9 @@
 			"skyMaster" : 5,
 			"stormwind" : 5,
 			"suppression" : 7,
-			"swiftness" : 7,
-			"verminLord" : 10,
-			"vitality" : 7
+			"swiftness": 7,
+			"verminLord": 10,
+			"vitality": 7
 		}
 	},
 	"core:heretic" : {
@@ -250,9 +250,9 @@
 			"skyMaster" : 5,
 			"stormwind" : 5,
 			"suppression" : 5,
-			"swiftness" : 3,
-			"verminLord" : 10,
-			"vitality" : 4
+			"swiftness": 3,
+			"verminLord": 10,
+			"vitality": 4
 		}
 	},
 	"core:deathknight" : {
@@ -282,8 +282,8 @@
 			"skyMaster" : 5,
 			"stormwind" : 6,
 			"suppression" : 6,
-			"swiftness" : 7,
-			"vitality" : 8
+			"swiftness": 7,
+			"vitality": 8
 		}
 	},
 	"core:necromancer" : {
@@ -313,8 +313,8 @@
 			"skyMaster" : 2,
 			"stormwind" : 9,
 			"suppression" : 4,
-			"swiftness" : 3,
-			"vitality" : 3
+			"swiftness": 3,
+			"vitality": 3
 		}
 	},
 	"core:overlord" : {
@@ -345,8 +345,8 @@
 			"skyMaster" : 5,
 			"stormwind" : 6,
 			"suppression" : 7,
-			"swiftness" : 6,
-			"vitality" : 8
+			"swiftness": 6,
+			"vitality": 8
 		}
 	},
 	"core:warlock" : {
@@ -377,8 +377,8 @@
 			"skyMaster" : 4,
 			"stormwind" : 7,
 			"suppression" : 4,
-			"swiftness" : 3,
-			"vitality" : 4
+			"swiftness": 3,
+			"vitality": 4
 		}
 	},
 	"core:barbarian" : {
@@ -409,8 +409,8 @@
 			"skyMaster" : 2,
 			"stormwind" : 10,
 			"suppression" : 10,
-			"swiftness" : 7,
-			"vitality" : 4
+			"swiftness": 7,
+			"vitality": 4
 		}
 	},
 	"core:battlemage" : {
@@ -441,8 +441,8 @@
 			"skyMaster" : 2,
 			"stormwind" : 10,
 			"suppression" : 5,
-			"swiftness" : 4,
-			"vitality" : 3
+			"swiftness": 4,
+			"vitality": 3
 		}
 	},
 	"core:beastmaster" : {
@@ -472,9 +472,9 @@
 			"skyMaster" : 2,
 			"stormwind" : 8,
 			"suppression" : 8,
-			"swiftness" : 7,
+			"swiftness": 7,
 			"tatalianTactics" : 10,
-			"vitality" : 10
+			"vitality": 10
 		}
 	},
 	"core:witch" : {
@@ -504,9 +504,9 @@
 			"skyMaster" : 4,
 			"stormwind" : 6,
 			"suppression" : 3,
-			"swiftness" : 3,
+			"swiftness": 3,
 			"tatalianTactics" : 10,
-			"vitality" : 5
+			"vitality": 5
 		}
 	},
 	"core:planeswalker" : {
@@ -537,8 +537,8 @@
 			"skyMaster" : 5,
 			"stormwind" : 5,
 			"suppression" : 7,
-			"swiftness" : 9,
-			"vitality" : 7
+			"swiftness": 9,
+			"vitality": 7
 		}
 	},
 	"core:elementalist" : {
@@ -569,8 +569,8 @@
 			"skyMaster" : 6,
 			"stormwind" : 4,
 			"suppression" : 4,
-			"swiftness" : 3,
-			"vitality" : 4
+			"swiftness": 3,
+			"vitality": 4
 		}
 	}
 }

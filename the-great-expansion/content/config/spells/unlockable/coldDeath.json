@@ -2,7 +2,7 @@
 	"coldDeath" : {
 		"type" : "combat",
 		"name" : "Cold Death",
-		"targetType" : "CREATURE",
+		"targetType": "CREATURE",
 		"school" : {
 			"air" : false,
 			"earth" : false,
@@ -10,13 +10,13 @@
 			"water" : true
 		},
 		"level" : 5,
-		"defaultGainChance" : 18,
-		"gainChance" : {
-			"castle" : 16,
+        "defaultGainChance": 18, 
+        "gainChance":
+        {
 			"tower" : 22,
 			"inferno" : 16,
-			"necropolis" : 20
-		},
+			"necropolis" : 20,
+        },
 		"power" : 1,
 		"flags" : {
 			"damage" : true,
@@ -29,47 +29,40 @@
 			"iconEffect" : "spells/coldDeath/effect"
 		},
 		"animation" : {
-			"hit" : [
-				"spells/coldDeath/spell.def"
-			]
+			"hit" : ["spells/coldDeath/spell.def"]
 		},
 		"sounds" : {
-			"cast" : "ICERAY"
+		   "cast" : "ICERAY"
 		},
 		"levels" : {
 			"base" : {
 				"range" : "0",
 				"power" : 1,
 				"battleEffects" : {
-					"directDamage" : {
-						"type" : "core:damage",
-						"killByCount" : true
-					}
+					"directDamage" : {"type":"core:damage", "killByCount": true}
 				},
-				"targetModifier" : {
-					"smart" : true
-				},
-				"cost" : 30
+				"targetModifier":{"smart":true},
+				"cost" : 45
 			},
 			"none" : {
 				"description" : "{Cold Death}\n\nDeals enough water damage to kill a number of units equal to 1+Spellpower.",
 				"power" : 1,
-				"cost" : 25
+				"cost" : 40
 			},
 			"basic" : {
 				"description" : "{Basic Cold Death}\n\nDeals enough water damage to kill a number of units equal to 1+Spellpower.",
 				"power" : 1,
-				"cost" : 25
+				"cost" : 40
 			},
 			"advanced" : {
 				"description" : "{Advanced Cold Death}\n\nDeals enough water damage to kill a number of units equal to 2+Spellpower.",
 				"power" : 2,
-				"cost" : 25
+				"cost" : 40
 			},
 			"expert" : {
 				"description" : "{Expert Cold Death}\n\nDeals enough water damage to kill a number of units equal to 3+Spellpower.",
 				"power" : 3,
-				"cost" : 25
+				"cost" : 40
 			}
 		}
 	}

@@ -23,7 +23,7 @@
 			"base" : {
 				"range" : "X",
 				"power" : 4,
-				"cost" : 0,
+				"cost": 0,
 				"description" : "Increases Attack and Speed of the stack.",
 				"effects" : {
 					"attack" : {
@@ -38,9 +38,7 @@
 						"duration" : "N_TURNS"
 					}
 				},
-				"targetModifier" : {
-					"smart" : true
-				}
+				"targetModifier":{"smart":true}
 			},
 			"none" : {
 				"power" : 1

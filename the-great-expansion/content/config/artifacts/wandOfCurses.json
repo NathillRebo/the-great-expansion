@@ -1,14 +1,12 @@
 {
 	"wandOfCurses" : {
 		"bonuses" : {
-			"spell" : {
+			"spell" :
+			{
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.curse",
 				"val" : 30,
-				"addInfo" : [
-					2,
-					0
-				]
+				"addInfo" : [2,0]
 			}
 		},
 		"type" : [

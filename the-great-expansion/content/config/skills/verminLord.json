@@ -8,9 +8,10 @@
 		"specialty" : [], // generic specialty not applicable
 		"base" : {
 			"effects" : {
-				"noEnemyRetaliation" : {
+				"noEnemyRetaliation" : 
+				{
 					"type" : "BLOCKS_RETALIATION",
-					"limiters" : [
+					"limiters": [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "imp",
@@ -43,17 +44,13 @@
 						}
 					]
 				}
-			}
+			},
 		},
 		"basic" : {
 			"description" : "{Basic Vermin Lord}\n\nGrants Imps the No Enemy Retaliation ability.",
 			"effects" : {
-				"speed" : {
-					"val" : 0
-				},
-				"max" : {
-					"val" : 0
-				}
+				"speed" : { "val" : 0 },
+				"max" : { "val" : 0 },
 			},
 			"images" : {
 				"small" : "skills/verminLord/icons/small/basic",
@@ -65,12 +62,8 @@
 		"advanced" : {
 			"description" : "{Advanced Vermin Lord}\n\nGrants Imps the No Enemy Retaliation ability and increases their Speed by 2.",
 			"effects" : {
-				"speed" : {
-					"val" : 2
-				},
-				"max" : {
-					"val" : 0
-				}
+				"speed" : { "val" : 2 },
+				"max" : { "val" : 0 },
 			},
 			"images" : {
 				"small" : "skills/verminLord/icons/small/advanced",
@@ -82,12 +75,8 @@
 		"expert" : {
 			"description" : "{Expert Vermin Lord}\n\nGrants Imps the No Enemy Retaliation ability, increases their Speed by 2 and their Max Damage by 1.",
 			"effects" : {
-				"speed" : {
-					"val" : 2
-				},
-				"max" : {
-					"val" : 1
-				}
+				"speed" : { "val" : 2 },
+				"max" : { "val" : 1 },
 			},
 			"images" : {
 				"small" : "skills/verminLord/icons/small/expert",

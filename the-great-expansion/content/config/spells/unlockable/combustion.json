@@ -2,7 +2,7 @@
 	"combustion" : {
 		"type" : "combat",
 		"name" : "Combustion",
-		"targetType" : "CREATURE",
+		"targetType": "CREATURE",
 		"school" : {
 			"air" : false,
 			"earth" : false,
@@ -10,8 +10,9 @@
 			"water" : false
 		},
 		"level" : 1,
-		"defaultGainChance" : 8,
-		"gainChance" : {
+        "defaultGainChance": 8, 
+        "gainChance":
+        {
 			"castle" : 5,
 			"rampart" : 5,
 			"tower" : 8,
@@ -21,7 +22,7 @@
 			"stronghold" : 7,
 			"fortress" : 7,
 			"conflux" : 10
-		},
+        },
 		"power" : 5,
 		"flags" : {
 			"damage" : true,
@@ -34,44 +35,38 @@
 			"iconEffect" : "spells/combustion/effect"
 		},
 		"animation" : {
-			"hit" : [
-				"C09SPF3"
-			]
+			"hit" : ["C09SPF3"]
 		},
 		"sounds" : {
-			"cast" : "LANDKILL"
+		   "cast" : "LANDKILL"
 		},
 		"levels" : {
 			"base" : {
 				"range" : "0",
 				"power" : 0,
 				"battleEffects" : {
-					"directDamage" : {
-						"type" : "core:damage"
-					}
+					"directDamage" : {"type":"core:damage"}
 				},
-				"targetModifier" : {
-					"smart" : true
-				},
+				"targetModifier":{"smart":true},
 				"cost" : 5
 			},
 			"none" : {
 				"description" : "{Combustion}\n\nDeals fire damage to the target.",
-				"power" : 25,
+				"power" : 35,
 				"cost" : 5
 			},
 			"basic" : {
 				"description" : "{Basic Combustion}\n\nDeals fire damage to the target.",
-				"power" : 25,
+				"power" : 35,
 				"cost" : 4
 			},
 			"advanced" : {
-				"description" : "{Advanced Combustion}\n\nDeals fire damage to the target.\n\nDamage inflicted is 25 more than Basic Combustion.",
-				"power" : 50,
+				"description" : "{Advanced Combustion}\n\nDeals fire damage to the target.\n\nDamage inflicted is 35 more than Basic Combustion.",
+				"power" : 70,
 				"cost" : 4
 			},
 			"expert" : {
-				"description" : "{Expert Combustion}\n\nDeals fire damage to the target.\n\nDamage inflicted is 105 more than Basic Combustion.",
+				"description" : "{Expert Combustion}\n\nDeals fire damage to the target.\n\nDamage inflicted is 95 more than Basic Combustion.",
 				"power" : 130,
 				"cost" : 4
 			}

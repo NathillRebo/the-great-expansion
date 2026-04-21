@@ -23,7 +23,7 @@
 			"base" : {
 				"range" : "X",
 				"power" : 4,
-				"cost" : 0,
+				"cost": 0,
 				"description" : "Reduces physical damage received by the stack.",
 				"effects" : {
 					"defense" : {
@@ -33,9 +33,7 @@
 						"val" : 20
 					}
 				},
-				"targetModifier" : {
-					"smart" : true
-				}
+				"targetModifier":{"smart":true}
 			},
 			"none" : {
 				"power" : 1

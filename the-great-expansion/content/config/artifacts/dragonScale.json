@@ -1,7 +1,8 @@
 {
 	"dragonScale" : {
 		"bonuses" : {
-			"spellImmunity" : {
+			"spellImmunity" :
+			{
 				"type" : "LEVEL_SPELL_IMMUNITY",
 				"val" : 5
 			}

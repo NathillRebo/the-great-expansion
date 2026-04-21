@@ -11,7 +11,8 @@
 				"val" : 20,
 				"valueType" : "PERCENT_TO_ALL"
 			},
-			"regenerate" : {
+			"regenerate" : 
+			{
 				"type" : "HP_REGENERATION",
 				"val" : 75
 			}

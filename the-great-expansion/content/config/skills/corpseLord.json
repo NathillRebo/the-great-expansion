@@ -20,14 +20,12 @@
 						}
 					]
 				}
-			}
+			},
 		},
 		"basic" : {
 			"description" : "{Basic Corpse Lord}\n\nIncreases Walking Dead's Speed by 1.",
 			"effects" : {
-				"speed" : {
-					"val" : 1
-				}
+				"speed" : { "val" : 1 }
 			},
 			"images" : {
 				"small" : "skills/corpseLord/icons/small/basic",
@@ -39,9 +37,7 @@
 		"advanced" : {
 			"description" : "{Advanced Corpse Lord}\n\nIncreases Walking Dead's Speed by 2.",
 			"effects" : {
-				"speed" : {
-					"val" : 2
-				}
+				"speed" : { "val" : 2 }
 			},
 			"images" : {
 				"small" : "skills/corpseLord/icons/small/advanced",
@@ -53,14 +49,12 @@
 		"expert" : {
 			"description" : "{Expert Corpse Lord}\n\nIncreases Walking Dead's Speed by 2. Necromancy now raises Walking Dead instead of Skeletons.",
 			"effects" : {
-				"speed" : {
-					"val" : 2
-				},
+				"speed" : { "val" : 2 },
 				"walkingDead" : {
 					"type" : "IMPROVED_NECROMANCY",
 					"subtype" : "creature.walkingDead",
 					"addInfo" : 1
-				}
+				},
 			},
 			"images" : {
 				"small" : "skills/corpseLord/icons/small/expert",

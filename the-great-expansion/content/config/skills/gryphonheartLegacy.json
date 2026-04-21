@@ -8,9 +8,10 @@
 		"specialty" : [], // generic specialty not applicable
 		"base" : {
 			"effects" : {
-				"strikeAndReturn" : {
+				"strikeAndReturn" : 
+				{
 					"type" : "RETURN_AFTER_STRIKE",
-					"limiters" : [
+					"limiters": [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "griffin",
@@ -18,11 +19,12 @@
 						}
 					]
 				}
-			}
+			},
 		},
 		"basic" : {
 			"description" : "{Basic Gryphonheart's Legacy}\n\nGrants Griffins the Return after Strike ability.",
-			"effects" : {},
+			"effects" : {
+			},
 			"images" : {
 				"small" : "skills/gryphonheartLegacy/icons/small/basic",
 				"medium" : "skills/gryphonheartLegacy/icons/medium/basic",
@@ -33,10 +35,11 @@
 		"advanced" : {
 			"description" : "{Advanced Gryphonheart's Legacy}\n\nGrants Griffins the Return after Strike and Jousting abilities.",
 			"effects" : {
-				"jousting" : {
+				"jousting" : 
+				{
 					"type" : "JOUSTING",
 					"val" : 4,
-					"limiters" : [
+					"limiters": [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "griffin",
@@ -55,10 +58,11 @@
 		"expert" : {
 			"description" : "{Expert Gryphonheart's Legacy}\n\nGrants Griffins the Return after Strike and Jousting abilities. Also increases their Speed and Morale by 1.",
 			"effects" : {
-				"jousting" : {
+				"jousting" : 
+				{
 					"type" : "JOUSTING",
 					"val" : 4,
-					"limiters" : [
+					"limiters": [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "griffin",
@@ -66,10 +70,11 @@
 						}
 					]
 				},
-				"morale" : {
+				"morale" : 
+				{
 					"type" : "MORALE",
 					"val" : 1,
-					"limiters" : [
+					"limiters": [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "griffin",
@@ -77,10 +82,11 @@
 						}
 					]
 				},
-				"speed" : {
+				"speed" : 
+				{
 					"type" : "STACKS_SPEED",
 					"val" : 1,
-					"limiters" : [
+					"limiters": [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "griffin",

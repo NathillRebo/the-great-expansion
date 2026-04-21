@@ -1,23 +1,25 @@
 {
-	"wither" : {
-		"type" : "combat",
-		"targetType" : "CREATURE",
-		"name" : "Wither",
+    "wither":
+    {   
+        "type": "combat",
+        "targetType":"CREATURE",
+        "name": "Wither",
 		"school" : {
 			"air" : false,
 			"earth" : false,
 			"fire" : true,
 			"water" : false
 		},
-		"level" : 4,
-		"power" : 10,
-		"defaultGainChance" : 7,
-		"gainChance" : {
-			"castle" : 0,
+        "level": 4,
+        "power": 10,
+        "defaultGainChance": 7, 
+        "gainChance":
+        {
+            "castle" : 0,
 			"inferno" : 13,
 			"necropolis" : 13,
-			"dungeon" : 13
-		},
+			"dungeon" : 13,
+        },
 
 		"targetCondition" : {
 			"allOf" : {},
@@ -25,7 +27,7 @@
 			"noneOf" : {}
 		},
 		"flags" : {
-			"negative" : true
+			"negative": true
 		},
 
 		"graphics" : {
@@ -44,14 +46,12 @@
 		"sounds" : {
 			"cast" : "spells/wither/sfx.wav"
 		},
-
+		
 		"levels" : {
-			"base" : {
+			"base":{
 				"range" : "0",
-				"power" : 10, //power value was missing in original files, it's placeholder
-				"targetModifier" : {
-					"smart" : true
-				},
+				"power": 10, //power value was missing in original files, it's placeholder
+				"targetModifier":{"smart":true},
 				"effects" : {
 					"attack" : {
 						"type" : "PRIMARY_SKILL",
@@ -83,7 +83,7 @@
 
 				"cost" : 12
 			},
-			"advanced" : {
+			"advanced":{
 				"description" : "{Advanced Wither}\n\nReduces Attack, Defense and Speed of the chosen stack. The reduction to Attack and Defense is twice as effective as from Basic Wither, while Speed reduction is 75% more effective than Basic Wither.",
 
 				"cost" : 12,
@@ -99,7 +99,8 @@
 					}
 				}
 			},
-			"expert" : {
+			"expert":{
+				
 				"description" : "{Expert Wither}\n\nReduces Attack, Defense and Speed of all enemy units. The reduction to Attack and Defense is twice as effective as from Basic Wither, while Speed reduction is 75% more effective than Basic Wither.",
 				"cost" : 12,
 				"range" : "X",
@@ -116,5 +117,6 @@
 				}
 			}
 		}
-	}
+    }
+
 }

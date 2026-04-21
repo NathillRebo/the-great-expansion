@@ -11,7 +11,7 @@
 				"lizardmen" : {
 					"type" : "STACK_HEALTH",
 					"val" : 1,
-					"limiters" : [
+					"limiters": [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "lizardman",
@@ -21,7 +21,7 @@
 				},
 				"lizardmen2" : {
 					"type" : "NO_WALL_PENALTY",
-					"limiters" : [
+					"limiters": [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "lizardman",
@@ -32,7 +32,7 @@
 				"serpentFlies" : {
 					"type" : "ADDITIONAL_RETALIATION",
 					"val" : 0,
-					"limiters" : [
+					"limiters": [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "serpentFly",
@@ -43,7 +43,7 @@
 				"wyverns" : {
 					"type" : "ADDITIONAL_RETALIATION",
 					"val" : 0,
-					"limiters" : [
+					"limiters": [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "wyvern",

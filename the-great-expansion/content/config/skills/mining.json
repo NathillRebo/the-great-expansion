@@ -35,12 +35,8 @@
 		"basic" : {
 			"description" : "{Basic Mining}\n\nGenerates 2 Gold per day per Dwarf in the hero's army.",
 			"effects" : {
-				"generatesGold" : {
-					"val" : 2
-				},
-				"generatesGold2" : {
-					"val" : 2
-				}
+				"generatesGold" : { "val" : 2 },
+				"generatesGold2" : { "val" : 2 }
 			},
 			"images" : {
 				"small" : "skills/mining/icons/small/basic",
@@ -52,12 +48,8 @@
 		"advanced" : {
 			"description" : "{Advanced Mining}\n\nGenerates 4 Gold per day per Dwarf in the hero's army.",
 			"effects" : {
-				"generatesGold" : {
-					"val" : 4
-				},
-				"generatesGold2" : {
-					"val" : 4
-				}
+				"generatesGold" : { "val" : 4 },
+				"generatesGold2" : { "val" : 4 }
 			},
 			"images" : {
 				"small" : "skills/mining/icons/small/advanced",
@@ -69,12 +61,8 @@
 		"expert" : {
 			"description" : "{Expert Mining}\n\nGenerates 6 Gold per day per Dwarf in the hero's army.",
 			"effects" : {
-				"generatesGold" : {
-					"val" : 6
-				},
-				"generatesGold2" : {
-					"val" : 6
-				}
+				"generatesGold" : { "val" : 6 },
+				"generatesGold2" : { "val" : 6 }
 			},
 			"images" : {
 				"small" : "skills/mining/icons/small/expert",
