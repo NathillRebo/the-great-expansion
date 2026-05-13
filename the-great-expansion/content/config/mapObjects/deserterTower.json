@@ -43,117 +43,53 @@
 				"rewards" : [
 					{
 						"message" : "After defeating the guards you search the place and find something useful!",
-						"appearChance" : {
-							"min" : 0,
-							"max" : 30
-						},
+						"appearChance" : { "min" : 0, "max" : 30 },
 						"guards" : [
-							{
-								"amount" : 20,
-								"type" : "pikeman"
-							},
-							{
-								"amount" : 20,
-								"type" : "pikeman"
-							},
-							{
-								"amount" : 20,
-								"type" : "pikeman"
-							},
-							{
-								"amount" : 20,
-								"type" : "pikeman"
-							},
-							{
-								"amount" : 20,
-								"type" : "pikeman"
-							}
+							{ "amount" : 20, "type" : "pikeman" },
+							{ "amount" : 20, "type" : "pikeman" },
+							{ "amount" : 20, "type" : "pikeman" },
+							{ "amount" : 20, "type" : "pikeman" },
+							{ "amount" : 20, "type" : "pikeman" }
 						],
-
-						"primary" : [
+						
+						"primary": [
 							{
-								"anyOf" : [
-									"attack",
-									"defence"
-								],
+								"anyOf" : ["attack", "defence"],
 								"amount" : 1
 							}
 						]
 					},
 					{
 						"message" : "After defeating the guards you search the place and find something useful!",
-						"appearChance" : {
-							"min" : 30,
-							"max" : 60
-						},
+						"appearChance" : { "min" : 30, "max" : 60 },
 						"guards" : [
-							{
-								"amount" : 30,
-								"type" : "pikeman"
-							},
-							{
-								"amount" : 30,
-								"type" : "pikeman"
-							},
-							{
-								"amount" : 30,
-								"type" : "pikeman"
-							},
-							{
-								"amount" : 30,
-								"type" : "pikeman"
-							},
-							{
-								"amount" : 30,
-								"type" : "pikeman"
-							}
+							{ "amount" : 30, "type" : "pikeman" },
+							{ "amount" : 30, "type" : "pikeman" },
+							{ "amount" : 30, "type" : "pikeman" },
+							{ "amount" : 30, "type" : "pikeman" },
+							{ "amount" : 30, "type" : "pikeman" }
 						],
-
-						"artifacts" : [
+						
+						"artifacts": [ { "class" : "TREASURE" } ],
+						
+						"primary": [
 							{
-								"class" : "TREASURE"
-							}
-						],
-
-						"primary" : [
-							{
-								"anyOf" : [
-									"attack",
-									"defence"
-								],
+								"anyOf" : ["attack", "defence"],
 								"amount" : 1
 							}
 						]
 					},
 					{
 						"message" : "After defeating the guards you search the place and find something useful!",
-						"appearChance" : {
-							"min" : 60,
-							"max" : 90
-						},
+						"appearChance" : { "min" : 60, "max" : 90 },
 						"guards" : [
-							{
-								"amount" : 40,
-								"type" : "pikeman"
-							},
-							{
-								"amount" : 40,
-								"type" : "pikeman"
-							},
-							{
-								"amount" : 40,
-								"type" : "pikeman"
-							},
-							{
-								"amount" : 40,
-								"type" : "pikeman"
-							},
-							{
-								"amount" : 40,
-								"type" : "pikeman"
-							}
+							{ "amount" : 40, "type" : "pikeman" },
+							{ "amount" : 40, "type" : "pikeman" },
+							{ "amount" : 40, "type" : "pikeman" },
+							{ "amount" : 40, "type" : "pikeman" },
+							{ "amount" : 40, "type" : "pikeman" }
 						],
-						"primary" : [
+						"primary": [
 							{
 								"type" : "attack",
 								"amount" : 1
@@ -166,34 +102,16 @@
 					},
 					{
 						"message" : "After defeating the guards you search the place and find something useful!",
-						"appearChance" : {
-							"min" : 90,
-							"max" : 100
-						},
+						"appearChance" : { "min" : 90, "max" : 100 },
 						"guards" : [
-							{
-								"amount" : 50,
-								"type" : "pikeman"
-							},
-							{
-								"amount" : 50,
-								"type" : "pikeman"
-							},
-							{
-								"amount" : 50,
-								"type" : "pikeman"
-							},
-							{
-								"amount" : 50,
-								"type" : "pikeman"
-							},
-							{
-								"amount" : 50,
-								"type" : "pikeman"
-							}
+							{ "amount" : 50, "type" : "pikeman" },
+							{ "amount" : 50, "type" : "pikeman" },
+							{ "amount" : 50, "type" : "pikeman" },
+							{ "amount" : 50, "type" : "pikeman" },
+							{ "amount" : 50, "type" : "pikeman" }
 						],
-
-						"primary" : [
+						
+						"primary": [
 							{
 								"type" : "attack",
 								"amount" : 1
@@ -203,12 +121,8 @@
 								"amount" : 1
 							}
 						],
-
-						"artifacts" : [
-							{
-								"class" : "TREASURE"
-							}
-						]
+						
+						"artifacts": [ { "class" : "TREASURE" } ]
 					}
 				]
 			}

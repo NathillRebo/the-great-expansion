@@ -2,7 +2,7 @@
 	"intervention" : {
 		"type" : "combat",
 		"name" : "Intervention",
-		"targetType" : "CREATURE",
+		"targetType": "CREATURE",
 		"school" : {
 			"air" : false,
 			"earth" : false,
@@ -10,8 +10,9 @@
 			"water" : true
 		},
 		"level" : 4,
-		"defaultGainChance" : 14,
-		"gainChance" : {
+        "defaultGainChance": 14, 
+        "gainChance":
+        {
 			"castle" : 30,
 			"rampart" : 30,
 			"tower" : 5,
@@ -19,7 +20,7 @@
 			"necropolis" : 5,
 			"dungeon" : 5,
 			"conflux" : 17
-		},
+        },
 		"power" : 30,
 		"flags" : {
 			"damage" : true,
@@ -41,15 +42,13 @@
 		"sounds" : {
 			"cast" : "spells/intervention/sfx.wav"
 		},
-
+		
 		"levels" : {
 			"base" : {
 				"range" : "0",
 				"power" : 10,
 				"battleEffects" : {
-					"directDamage" : {
-						"type" : "core:damage"
-					},
+					"directDamage" : {"type":"core:damage"},
 					"silence" : {
 						"type" : "core:timed",
 						"cumulative" : false,
@@ -65,9 +64,7 @@
 						}
 					}
 				},
-				"targetModifier" : {
-					"smart" : true
-				},
+				"targetModifier":{"smart":true},
 				"cost" : 16
 			},
 			"none" : {

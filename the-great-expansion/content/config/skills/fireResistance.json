@@ -18,9 +18,7 @@
 		"basic" : {
 			"description" : "{Basic Fire Resistance}\n\nReduces incoming damage from fire spells and attacks by 12%.",
 			"effects" : {
-				"main" : {
-					"val" : 12
-				}
+				"main" : { "val" : 12 }
 			},
 			"images" : {
 				"small" : "skills/fireResistance/icons/small/basic",
@@ -32,9 +30,7 @@
 		"advanced" : {
 			"description" : "{Advanced Fire Resistance}\n\nReduces incoming damage from fire spells and attacks by 24%.",
 			"effects" : {
-				"main" : {
-					"val" : 24
-				}
+				"main" : { "val" : 24 }
 			},
 			"images" : {
 				"small" : "skills/fireResistance/icons/small/advanced",
@@ -46,9 +42,7 @@
 		"expert" : {
 			"description" : "{Expert Fire Resistance}\n\nReduces incoming damage from fire spells and attacks by 36%.",
 			"effects" : {
-				"main" : {
-					"val" : 36
-				}
+				"main" : { "val" : 36 }
 			},
 			"images" : {
 				"small" : "skills/fireResistance/icons/small/expert",

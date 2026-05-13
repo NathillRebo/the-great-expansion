@@ -1,9 +1,11 @@
 {
 	"basepath" : "spells/destiny/frames/",
-	"sequences" : [
+	"sequences" :
+	[
 		{
 			"group" : 0,
-			"frames" : [
+			"frames" :
+			[
 				"3.png",
 				"5.png",
 				"7.png",
@@ -120,10 +122,10 @@
 				"169.png",
 				"171.png",
 				"173.png",
-				"175.png"
+				"175.png",
 			],
 			"generateShadow" : 0,
-			"generateOverlay" : 0
+			"generateOverlay" : 0,
 		}
 	]
 }

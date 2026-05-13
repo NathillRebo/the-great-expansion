@@ -1,10 +1,11 @@
 {
 	"ringOfTheGog" : {
 		"bonuses" : {
-			"spellFireball" : {
-				"type" : "SPELL",
+			"spellFireball" :
+			{
+				"type": "SPELL",
 				"val" : 3,
-				"subtype" : "spell.fireball"
+				"subtype": "spell.fireball"
 			},
 			"fireballBonus" : {
 				"type" : "SPECIFIC_SPELL_DAMAGE",

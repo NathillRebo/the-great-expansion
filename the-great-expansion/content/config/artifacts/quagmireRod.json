@@ -1,10 +1,11 @@
 {
 	"quagmireRod" : {
 		"bonuses" : {
-			"spellQuicksand" : {
-				"type" : "OPENING_BATTLE_SPELL",
+			"spellQuicksand" :
+			{
+				"type": "OPENING_BATTLE_SPELL",
 				"val" : 15,
-				"subtype" : "spell.quicksand"
+				"subtype": "spell.quicksand"
 			},
 			"spellpower" : {
 				"subtype" : "primarySkill.spellpower",

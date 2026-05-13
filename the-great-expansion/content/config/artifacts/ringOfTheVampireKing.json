@@ -1,7 +1,8 @@
 {
 	"ringOfTheVampireKing" : {
 		"bonuses" : {
-			"undead" : {
+			"undead" :
+			{
 				"type" : "UNDEAD"
 			},
 			"lifesteal" : {

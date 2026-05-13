@@ -18,7 +18,7 @@
 					"subtype" : "spell.meteorShower",
 					"type" : "SPECIFIC_SPELL_DAMAGE"
 				},
-				"haste" : {
+				"haste": {
 					"addInfo" : 0,
 					"subtype" : "spell.haste",
 					"type" : "SPECIAL_ADD_VALUE_ENCHANT"

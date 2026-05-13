@@ -1,26 +1,28 @@
 {
-	"anchor" : {
-		"type" : "combat",
-		"targetType" : "CREATURE",
-		"name" : "Anchor",
+    "anchor":
+    {   
+        "type": "combat",
+        "targetType":"CREATURE",
+        "name": "Anchor",
 		"school" : {
 			"air" : true,
 			"earth" : false,
 			"fire" : false,
 			"water" : false
 		},
-		"level" : 1,
-		"power" : 10,
-		"defaultGainChance" : 7,
-		"gainChance" : {
-			"castle" : 8,
+        "level": 1,
+        "power": 10,
+        "defaultGainChance": 7, 
+        "gainChance":
+        {
+            "castle" : 8,
 			"rampart" : 8,
 			"tower" : 9,
 			"inferno" : 8,
 			"necropolis" : 6,
 			"dungeon" : 0,
 			"stronghold" : 5
-		},
+        },
 
 		"targetCondition" : {
 			"allOf" : {},
@@ -28,7 +30,7 @@
 			"noneOf" : {}
 		},
 		"flags" : {
-			"negative" : true
+			"negative": true
 		},
 
 		"graphics" : {
@@ -47,14 +49,12 @@
 		"sounds" : {
 			"cast" : "spells/anchor/sfx.wav"
 		},
-
+		
 		"levels" : {
-			"base" : {
+			"base":{
 				"range" : "0",
-				"power" : 10, //power value was missing in original files, it's placeholder
-				"targetModifier" : {
-					"smart" : true
-				},
+				"power": 10, //power value was missing in original files, it's placeholder
+				"targetModifier":{"smart":true},
 				"effects" : {
 					"bindEffect" : {
 						"val" : -100,
@@ -87,7 +87,7 @@
 
 				"cost" : 8
 			},
-			"advanced" : {
+			"advanced":{
 				"description" : "{Advanced Anchor}\n\nReduces the target's Defense and renders it unable to move. The effect is removed when the unit receives damage.\n\nThe reduction to Defense is twice as effective as from Basic Anchor.",
 
 				"cost" : 8,
@@ -97,7 +97,7 @@
 					}
 				}
 			},
-			"expert" : {
+			"expert":{
 				"description" : "{Expert Anchor}\n\nReduces the target's Defense and renders it unable to move. The effect is removed when the unit receives damage.\n\nThe reduction to Defense is thrice as effective as from Basic Anchor.",
 				"cost" : 8,
 				"effects" : {
@@ -107,5 +107,6 @@
 				}
 			}
 		}
-	}
+    }
+
 }

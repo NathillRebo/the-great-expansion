@@ -1,9 +1,10 @@
 {
 	"runeOfTheSkylord" : {
 		"bonuses" : {
-			"luck" : {
-				"type" : "LUCK",
-				"val" : 1
+			"luck":
+			{
+				"type": "LUCK",
+				"val": 1
 			},
 			"speed" : {
 				"type" : "STACKS_SPEED",
@@ -22,7 +23,8 @@
 				"valueType" : "BASE_NUMBER",
 				"val" : 30
 			},
-			"extraRetaliation" : {
+			"extraRetaliation" :
+			{
 				"type" : "ADDITIONAL_RETALIATION",
 				"val" : 1
 			},

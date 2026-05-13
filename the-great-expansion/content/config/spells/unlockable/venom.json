@@ -2,7 +2,7 @@
 	"venom" : {
 		"type" : "combat",
 		"name" : "Venom",
-		"targetType" : "CREATURE",
+		"targetType": "CREATURE",
 		"school" : {
 			"air" : false,
 			"earth" : true,
@@ -10,8 +10,9 @@
 			"water" : false
 		},
 		"level" : 2,
-		"defaultGainChance" : 9,
-		"gainChance" : {
+        "defaultGainChance": 9, 
+        "gainChance":
+        {
 			"castle" : 7,
 			"rampart" : 8,
 			"necropolis" : 12,
@@ -19,7 +20,7 @@
 			"stronghold" : 7,
 			"fortress" : 8,
 			"conflux" : 10
-		},
+        },
 		"power" : 6,
 		"flags" : {
 			"negative" : true
@@ -49,7 +50,7 @@
 				"effects" : {
 					"health" : {
 						"type" : "STACK_HEALTH",
-						"val" : -10,
+						"val" : -7,
 						"valueType" : "PERCENT_TO_ALL",
 						"duration" : "N_TURNS"
 					},
@@ -60,6 +61,7 @@
 						"duration" : "N_TURNS"
 					}
 				}
+				
 			},
 			"none" : {
 				"description" : "{Venom}\n\nEnvenoms the target, reducing its Max Health."
@@ -73,7 +75,7 @@
 				"cost" : 6,
 				"effects" : {
 					"health" : {
-						"val" : -20
+						"val" : -15
 					}
 				}
 			},
@@ -83,7 +85,7 @@
 				"range" : "X",
 				"effects" : {
 					"health" : {
-						"val" : -20
+						"val" : -15
 					}
 				}
 			}

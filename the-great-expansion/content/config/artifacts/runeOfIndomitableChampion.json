@@ -1,10 +1,12 @@
 {
 	"runeOfIndomitableChampion" : {
 		"bonuses" : {
-			"unlimitedRetaliation" : {
+			"unlimitedRetaliation" :
+			{
 				"type" : "UNLIMITED_RETALIATIONS"
 			},
-			"regenerate" : {
+			"regenerate" : 
+			{
 				"type" : "HP_REGENERATION",
 				"val" : 75
 			}

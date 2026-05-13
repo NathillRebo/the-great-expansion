@@ -1,9 +1,10 @@
 {
 	"runeOfAudaciousChampion" : {
 		"bonuses" : {
-			"jousting" : {
-				"type" : "JOUSTING",
-				"val" : 5
+			"jousting":
+			{
+				"type": "JOUSTING",
+				"val": 5
 			},
 			"speed" : {
 				"type" : "STACKS_SPEED",

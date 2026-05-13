@@ -1,26 +1,28 @@
 {
-	"destiny" : {
-		"type" : "combat",
-		"targetType" : "CREATURE",
-		"name" : "Destiny",
+    "destiny":
+    {   
+        "type": "combat",
+        "targetType":"CREATURE",
+        "name": "Destiny",
 		"school" : {
 			"air" : false,
 			"earth" : true,
 			"fire" : false,
 			"water" : false
 		},
-		"level" : 5,
-		"power" : 10,
-		"defaultGainChance" : 6,
-		"gainChance" : {
-			"castle" : 0,
+        "level": 5,
+        "power": 10,
+        "defaultGainChance": 6, 
+        "gainChance":
+        {
+            "castle" : 0,
 			"rampart" : 0,
 			"tower" : 0,
 			"inferno" : 12,
 			"necropolis" : 12,
 			"dungeon" : 12,
 			"conflux" : 6
-		},
+        },
 
 		"targetCondition" : {
 			"allOf" : {},
@@ -28,7 +30,7 @@
 			"noneOf" : {}
 		},
 		"flags" : {
-			"negative" : true
+			"negative": true
 		},
 
 		"graphics" : {
@@ -47,14 +49,12 @@
 		"sounds" : {
 			"cast" : "spells/destiny/sfx.wav"
 		},
-
+		
 		"levels" : {
-			"base" : {
+			"base":{
 				"range" : "X",
-				"power" : 10, //power value was missing in original files, it's placeholder
-				"targetModifier" : {
-					"smart" : true
-				},
+				"power": 10, //power value was missing in original files, it's placeholder
+				"targetModifier":{"smart":true},
 				"cumulativeEffects" : {
 					"attack" : {
 						"type" : "PRIMARY_SKILL",
@@ -66,6 +66,12 @@
 					"defense" : {
 						"type" : "PRIMARY_SKILL",
 						"subtype" : "primarySkill.defence",
+						"val" : -3,
+						"valueType" : "ADDITIVE_VALUE",
+						"duration" : "PERMANENT"
+					},
+					"health" : {
+						"type" : "STACK_HEALTH",
 						"val" : -3,
 						"valueType" : "ADDITIVE_VALUE",
 						"duration" : "PERMANENT"
@@ -73,17 +79,17 @@
 				}
 			},
 			"none" : {
-				"description" : "{Destiny}\n\nReduces Attack and Defense of all enemy units. This effect stacks and lasts until end of battle.",
+				"description" : "{Destiny}\n\nReduces Attack, Defense and Health of all enemy units. This effect stacks and lasts until end of battle.",
 
 				"cost" : 33
 			},
 			"basic" : {
-				"description" : "{Basic Destiny}\n\nReduces Attack and Defense of all enemy units. This effect stacks and lasts until end of battle.",
+				"description" : "{Basic Destiny}\n\nReduces Attack, Defense and Health of all enemy units. This effect stacks and lasts until end of battle.",
 
 				"cost" : 28
 			},
-			"advanced" : {
-				"description" : "{Advanced Destiny}\n\nReduces Attack and Defense of all enemy units. This effect stacks and lasts until end of battle.\n\nThe reduction is 1 point greater than from Basic Destiny.",
+			"advanced":{
+				"description" : "{Advanced Destiny}\n\nReduces Attack, Defense and Health of all enemy units. This effect stacks and lasts until end of battle.\n\nThe reduction is 1 point greater than from Basic Destiny.",
 
 				"cost" : 28,
 				"cumulativeEffects" : {
@@ -100,11 +106,18 @@
 						"val" : -4,
 						"valueType" : "ADDITIVE_VALUE",
 						"duration" : "PERMANENT"
+					},
+					"health" : {
+						"type" : "STACK_HEALTH",
+						"val" : -4,
+						"valueType" : "ADDITIVE_VALUE",
+						"duration" : "PERMANENT"
 					}
 				}
 			},
-			"expert" : {
-				"description" : "{Expert Destiny}\n\nReduces Attack and Defense of all enemy units. This effect stacks and lasts until end of battle.\n\nThe reduction is 2 points greater than from Basic Destiny.",
+			"expert":{
+				
+				"description" : "{Expert Destiny}\n\nReduces Attack, Defense and Health of all enemy units. This effect stacks and lasts until end of battle.\n\nThe reduction is 2 points greater than from Basic Destiny.",
 				"cost" : 28,
 				"cumulativeEffects" : {
 					"attack" : {
@@ -117,6 +130,12 @@
 					"defense" : {
 						"type" : "PRIMARY_SKILL",
 						"subtype" : "primarySkill.defence",
+						"val" : -5,
+						"valueType" : "ADDITIVE_VALUE",
+						"duration" : "PERMANENT"
+					},
+					"health" : {
+						"type" : "STACK_HEALTH",
 						"val" : -5,
 						"valueType" : "ADDITIVE_VALUE",
 						"duration" : "PERMANENT"
@@ -124,5 +143,5 @@
 				}
 			}
 		}
-	}
+    }
 }

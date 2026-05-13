@@ -1,26 +1,28 @@
 {
-	"doom" : {
-		"type" : "combat",
-		"targetType" : "CREATURE",
-		"name" : "Doom",
+    "doom":
+    {   
+        "type": "combat",
+        "targetType":"CREATURE",
+        "name": "Doom",
 		"school" : {
 			"air" : false,
 			"earth" : true,
 			"fire" : false,
 			"water" : false
 		},
-		"level" : 5,
-		"power" : 10,
-		"defaultGainChance" : 11,
-		"gainChance" : {
-			"castle" : 9,
+        "level": 5,
+        "power": 10,
+        "defaultGainChance": 11, 
+        "gainChance":
+        {
+            "castle" : 9,
 			"rampart" : 14,
 			"tower" : 14,
 			"inferno" : 14,
 			"necropolis" : 18,
 			"dungeon" : 9,
 			"conflux" : 14
-		},
+        },
 
 		"targetCondition" : {
 			"allOf" : {},
@@ -28,7 +30,7 @@
 			"noneOf" : {}
 		},
 		"flags" : {
-			"negative" : true
+			"negative": true
 		},
 
 		"graphics" : {
@@ -47,14 +49,12 @@
 		"sounds" : {
 			"cast" : "spells/doom/sfx.wav"
 		},
-
+		
 		"levels" : {
-			"base" : {
+			"base":{
 				"range" : "0",
-				"power" : 10, //power value was missing in original files, it's placeholder
-				"targetModifier" : {
-					"smart" : true
-				},
+				"power": 10, //power value was missing in original files, it's placeholder
+				"targetModifier":{"smart":true},
 				"effects" : {
 					"attack" : {
 						"type" : "PRIMARY_SKILL",
@@ -101,7 +101,7 @@
 
 				"cost" : 25
 			},
-			"advanced" : {
+			"advanced":{
 				"description" : "{Advanced Doom}\n\nReduces Attack, Defense, Damage, Health and Speed of a single unit. The reduction is 66% more effective than Basic Doom.",
 
 				"cost" : 25,
@@ -123,7 +123,8 @@
 					}
 				}
 			},
-			"expert" : {
+			"expert":{
+				
 				"description" : "{Expert Doom}\n\nReduces Attack, Defense, Damage, Health and Speed of a single unit. The reduction is 133% more effective than Basic Doom.",
 				"cost" : 25,
 				"effects" : {
@@ -145,5 +146,5 @@
 				}
 			}
 		}
-	}
+    }
 }

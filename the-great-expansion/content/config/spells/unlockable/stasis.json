@@ -1,25 +1,27 @@
 {
-	"stasis" : {
-		"type" : "combat",
-		"targetType" : "CREATURE",
-		"name" : "Stasis",
+    "stasis":
+    {   
+        "type": "combat",
+        "targetType":"CREATURE",
+        "name": "Stasis",
 		"school" : {
 			"air" : false,
 			"earth" : false,
 			"fire" : false,
 			"water" : true
 		},
-		"level" : 5,
-		"power" : 10,
-		"defaultGainChance" : 11,
-		"gainChance" : {
+        "level": 5,
+        "power": 10,
+        "defaultGainChance": 11,
+        "gainChance":
+        {
 			"rampart" : 28,
 			"tower" : 5,
 			"inferno" : 6,
 			"necropolis" : 8,
 			"dungeon" : 1,
 			"conflux" : 7
-		},
+        },
 
 		"targetCondition" : {
 			"allOf" : {},
@@ -27,7 +29,7 @@
 			"noneOf" : {}
 		},
 		"flags" : {
-			"negative" : true
+			"negative": true
 		},
 
 		"graphics" : {
@@ -46,14 +48,12 @@
 		"sounds" : {
 			"cast" : "spells/stasis/sfx.wav"
 		},
-
+		
 		"levels" : {
-			"base" : {
+			"base":{
 				"range" : "0",
-				"power" : 10, //power value was missing in original files, it's placeholder
-				"targetModifier" : {
-					"smart" : true
-				},
+				"power": 10, //power value was missing in original files, it's placeholder
+				"targetModifier":{"smart":true},
 				"effects" : {
 					"notActive" : {
 						"val" : 0,
@@ -72,7 +72,8 @@
 							"N_TURNS"
 						]
 					},
-					"magicResistance" : {
+					"magicResistance" :
+					{
 						"type" : "SPELL_DAMAGE_REDUCTION",
 						"subtype" : "spellSchool.any",
 						"valueType" : "BASE_NUMBER",
@@ -81,7 +82,8 @@
 							"N_TURNS"
 						]
 					},
-					"noRetal" : {
+					"noRetal" :
+					{
 						"type" : "NO_RETALIATION",
 						"duration" : [
 							"N_TURNS"
@@ -99,7 +101,7 @@
 
 				"cost" : 25
 			},
-			"advanced" : {
+			"advanced":{
 				"description" : "{Advanced Stasis}\n\nRenders the target unable to act, but also greatly reduces damage received by it.\n\nThe target receives 50% more damage than if affected by Basic Stasis.",
 
 				"cost" : 25,
@@ -112,7 +114,7 @@
 					}
 				}
 			},
-			"expert" : {
+			"expert":{
 				"description" : "{Expert Stasis}\n\nRenders the target unable to act, but also greatly reduces damage received by it.\n\nThe target receives 100% more damage than if affected by Basic Stasis.",
 				"cost" : 25,
 				"effects" : {
@@ -125,5 +127,6 @@
 				}
 			}
 		}
-	}
+    }
+
 }

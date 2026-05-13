@@ -1,30 +1,30 @@
 {
 	"summonSharpshooters" : {
-		"type" : "combat",
-		"name" : "Summon Sharpshooters",
+		"type": "combat",
+        "name": "Summon Sharpshooters",
 		"targetType" : "NO_TARGET",
-		"school" : {
-			"air" : false,
-			"earth" : true,
-			"fire" : false,
-			"water" : false
-		},
-		"level" : 5,
-		"defaultGainChance" : 11,
+        "school": {
+            "air": false,
+            "earth": true,
+            "fire": false,
+            "water": false
+        },
+		"level": 5,
+		"defaultGainChance": 11,
 		"gainChance" : {
 			"rampart" : 22
 		},
 		"power" : 18,
-		"flags" : {
-			"indifferent" : true
-		},
-		"animation" : {
-			"cast" : [
-				"C12SPF0.def"
-			]
-		},
-		"sounds" : {
-			"cast" : "SUMNELM"
+        "flags": {
+            "indifferent": true
+        },
+        "animation": {
+            "cast": [
+                "C12SPF0.def"
+            ]
+        },
+		"sounds": {
+			"cast": "SUMNELM"
 		},
 
 		"graphics" : {
@@ -33,18 +33,18 @@
 			"iconScenarioBonus" : "spells/summonSharpshooters/scenario",
 			"iconEffect" : "spells/summonSharpshooters/effect"
 		},
-
+		
 		"levels" : {
 			"base" : {
 				"range" : "X",
-				"cost" : 30,
-				"power" : 15,
+                "cost": 30,
+                "power": 15,
 				"battleEffects" : {
 					"summon" : {
 						"exclusive" : false,
-						"id" : "sharpshooter",
+						"id":"sharpshooter",
 						"summonByHealth" : true,
-						"type" : "core:summon"
+						"type":"core:summon"
 					}
 				}
 			},

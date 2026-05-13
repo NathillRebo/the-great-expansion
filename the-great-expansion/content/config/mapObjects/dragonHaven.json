@@ -41,30 +41,15 @@
 				"rewards" : [
 					{
 						"message" : "After defeating the guards you tame the dragon!",
-						"appearChance" : {
-							"min" : 0,
-							"max" : 25
-						},
+						"appearChance" : { "min" : 0, "max" : 25 },
 						"guards" : [
-							{
-								"amount" : 4,
-								"type" : "angel"
-							},
-							{
-								"amount" : 2,
-								"type" : "archangel"
-							},
-							{
-								"amount" : 5,
-								"type" : "giant"
-							},
-							{
-								"amount" : 2,
-								"type" : "titan"
-							}
+							{ "amount" : 4, "type" : "angel" },
+							{ "amount" : 2, "type" : "archangel" },
+							{ "amount" : 5, "type" : "giant" },
+							{ "amount" : 2, "type" : "titan" }
 						],
-
-						"heroExperience" : 500,
+						
+						"heroExperience" : 500, 
 						"creatures" : [
 							{
 								"type" : "fairieDragon",
@@ -72,33 +57,19 @@
 								"amount" : 1
 							}
 						]
+						
 					},
 					{
 						"message" : "After defeating the guards you tame the dragon!",
-						"appearChance" : {
-							"min" : 25,
-							"max" : 50
-						},
+						"appearChance" : { "min" : 25, "max" : 50 },
 						"guards" : [
-							{
-								"amount" : 3,
-								"type" : "redDragon"
-							},
-							{
-								"amount" : 2,
-								"type" : "blackDragon"
-							},
-							{
-								"amount" : 4,
-								"type" : "hydra"
-							},
-							{
-								"amount" : 3,
-								"type" : "chaosHydra"
-							}
+							{ "amount" : 3, "type" : "redDragon" },
+							{ "amount" : 2, "type" : "blackDragon" },
+							{ "amount" : 4, "type" : "hydra" },
+							{ "amount" : 3, "type" : "chaosHydra" }
 						],
-
-						"heroExperience" : 500,
+						
+						"heroExperience" : 500, 
 						"creatures" : [
 							{
 								"type" : "rustDragon",
@@ -109,30 +80,15 @@
 					},
 					{
 						"message" : "After defeating the guards you tame the dragon!",
-						"appearChance" : {
-							"min" : 50,
-							"max" : 75
-						},
+						"appearChance" : { "min" : 50, "max" : 75 },
 						"guards" : [
-							{
-								"amount" : 5,
-								"type" : "greenDragon"
-							},
-							{
-								"amount" : 3,
-								"type" : "goldDragon"
-							},
-							{
-								"amount" : 7,
-								"type" : "behemoth"
-							},
-							{
-								"amount" : 4,
-								"type" : "ancientBehemoth"
-							}
+							{ "amount" : 5, "type" : "greenDragon" },
+							{ "amount" : 3, "type" : "goldDragon" },
+							{ "amount" : 7, "type" : "behemoth" },
+							{ "amount" : 4, "type" : "ancientBehemoth" }
 						],
-
-						"heroExperience" : 500,
+						
+						"heroExperience" : 500, 
 						"creatures" : [
 							{
 								"type" : "crystalDragon",
@@ -143,30 +99,15 @@
 					},
 					{
 						"message" : "After defeating the guards you tame the dragon!",
-						"appearChance" : {
-							"min" : 75,
-							"max" : 100
-						},
+						"appearChance" : { "min" : 75, "max" : 100 },
 						"guards" : [
-							{
-								"amount" : 9,
-								"type" : "devil"
-							},
-							{
-								"amount" : 6,
-								"type" : "archDevil"
-							},
-							{
-								"amount" : 13,
-								"type" : "boneDragon"
-							},
-							{
-								"amount" : 9,
-								"type" : "ghostDragon"
-							}
+							{ "amount" : 9, "type" : "devil" },
+							{ "amount" : 6, "type" : "archDevil" },
+							{ "amount" : 13, "type" : "boneDragon" },
+							{ "amount" : 9, "type" : "ghostDragon" }
 						],
-
-						"heroExperience" : 500,
+						
+						"heroExperience" : 500, 
 						"creatures" : [
 							{
 								"type" : "azureDragon",

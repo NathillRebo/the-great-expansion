@@ -1,19 +1,21 @@
 {
-	"charge" : {
-		"type" : "combat",
-		"targetType" : "CREATURE",
-		"name" : "Charge",
+    "charge":
+    {   
+        "type": "combat",
+        "targetType":"CREATURE",
+        "name": "Charge",
 		"school" : {
 			"air" : true,
 			"earth" : false,
 			"fire" : false,
 			"water" : false
 		},
-		"level" : 3,
-		"power" : 10,
-		"defaultGainChance" : 7,
-		"gainChance" : {
-			"castle" : 6,
+        "level": 3,
+        "power": 10,
+        "defaultGainChance": 7, 
+        "gainChance":
+        {
+            "castle" : 6,
 			"rampart" : 6,
 			"tower" : 2,
 			"inferno" : 11,
@@ -22,14 +24,14 @@
 			"stronghold" : 2,
 			"fortress" : 2,
 			"conflux" : 19
-		},
+        },
 
 		"targetCondition" : {
 			"allOf" : {},
 			"anyOf" : {},
 			"noneOf" : {}
 		},
-
+		
 		"flags" : {
 			"positive" : true
 		},
@@ -50,7 +52,7 @@
 		"sounds" : {
 			"cast" : "spells/charge/sfx.wav"
 		},
-
+		
 		"levels" : {
 			"base" : {
 				"range" : "0",
@@ -111,5 +113,6 @@
 				}
 			}
 		}
-	}
+    }
+
 }

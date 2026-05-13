@@ -2,7 +2,7 @@
 	"sunderTrigger" : {
 		"type" : "ability",
 		"name" : "Sunder",
-		"targetType" : "CREATURE",
+		"targetType": "CREATURE",
 		"school" : {
 			"air" : false,
 			"earth" : false,
@@ -10,8 +10,10 @@
 			"water" : true
 		},
 		"level" : 5,
-		"defaultGainChance" : 0,
-		"gainChance" : {},
+        "defaultGainChance": 0, 
+        "gainChance":
+        {
+        },
 		"power" : 10,
 		"flags" : {
 			"damage" : true,
@@ -24,25 +26,19 @@
 			"iconEffect" : "spells/sunder/effect"
 		},
 		"animation" : {
-			"hit" : [
-				"spells/sunder/spell_trigger.json"
-			]
+			"hit" : ["spells/sunder/spell_trigger.json"]
 		},
 		"sounds" : {
-			"cast" : "spells/sunder/trigger.wav"
+		   "cast" : "spells/sunder/trigger.wav"
 		},
 		"levels" : {
 			"base" : {
 				"range" : "0",
 				"power" : 25,
 				"battleEffects" : {
-					"directDamage" : {
-						"type" : "core:damage"
-					}
+					"directDamage" : {"type":"core:damage"}
 				},
-				"targetModifier" : {
-					"smart" : true
-				},
+				"targetModifier":{"smart":true},
 				"description" : "",
 				"cost" : 0
 			},

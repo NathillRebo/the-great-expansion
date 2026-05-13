@@ -1,19 +1,21 @@
 {
-	"restore" : {
-		"type" : "combat",
-		"targetType" : "CREATURE",
-		"name" : "Restore",
+    "restore":
+    {   
+        "type": "combat",
+        "targetType":"CREATURE",
+        "name": "Restore",
 		"school" : {
 			"air" : false,
 			"earth" : false,
 			"fire" : false,
 			"water" : true
 		},
-		"level" : 2,
-		"power" : 10,
-		"defaultGainChance" : 7,
-		"gainChance" : {
-			"castle" : 16,
+        "level": 2,
+        "power": 10,
+        "defaultGainChance": 7, 
+        "gainChance":
+        {
+            "castle" : 16,
 			"rampart" : 10,
 			"tower" : 8,
 			"inferno" : 4,
@@ -22,14 +24,14 @@
 			"stronghold" : 3,
 			"fortress" : 6,
 			"conflux" : 4
-		},
+        },
 
 		"targetCondition" : {
 			"allOf" : {},
 			"anyOf" : {},
 			"noneOf" : {}
 		},
-
+		
 		"flags" : {
 			"positive" : true
 		},
@@ -50,21 +52,21 @@
 		"sounds" : {
 			"cast" : "spells/restore/sfx.wav"
 		},
-
+		
 		"levels" : {
 			"base" : {
 				"range" : "0",
 				"targetModifier" : {
 					"smart" : true
 				},
-				"battleEffects" : {
-					"heal" : {
-						"type" : "core:heal",
-						"healLevel" : "resurrect",
-						"healPower" : "oneBattle",
+				"battleEffects":{
+					"heal":{
+						"type":"core:heal",
+						"healLevel":"resurrect",
+						"healPower":"oneBattle",
 						"minFullUnits" : 0
 					}
-				}
+				},
 			},
 			"none" : {
 				"description" : "{Restore}\n\nRevives a small amount of Health to a friendly stack. The revived units disappear after the battle ends.",
@@ -82,9 +84,9 @@
 				"power" : 20,
 
 				"cost" : 6,
-				"battleEffects" : {
-					"heal" : {
-						"healPower" : "permanent"
+				"battleEffects":{
+					"heal":{
+						"healPower":"permanent"
 					}
 				}
 			},
@@ -93,12 +95,13 @@
 				"power" : 40,
 
 				"cost" : 6,
-				"battleEffects" : {
-					"heal" : {
-						"healPower" : "permanent"
+				"battleEffects":{
+					"heal":{
+						"healPower":"permanent"
 					}
 				}
 			}
 		}
-	}
+    }
+
 }

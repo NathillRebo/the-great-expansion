@@ -1,27 +1,32 @@
 {
-	"viviann" : {
+	"viviann" :
+	{
 		"class" : "ranger",
 		"female" : true,
 		"special" : false,
 		"onlyOnWaterMap" : false,
 		"onlyOnMapWithoutWater" : false,
 
-		"texts" : {
+		"texts" :
+		{
 			"name" : "Viviann",
 			"biography" : "Viviann's parents died due to a forest fire. When she had learned the demons were behind the fire, she sworn to kill every one of them until her last breath. Her units share the same fanaticism and strike hard and true, no matter the foe.",
-			"specialty" : {
+			"specialty" :
+			{
 				"description" : "Increases Max Damage of all tier 3+ units under the hero's control by 1 per 7 hero levels.",
 				"tooltip" : "Skill Bonus: Nature's Fury",
 				"name" : "Nature's Furyr"
 			}
 		},
-		"images" : {
+		"images" :
+		{
 			"specialtySmall" : "heroes/rampart/viviann/specSmall.png",
 			"specialtyLarge" : "heroes/rampart/viviann/specLarge.png",
 			"large" : "heroes/rampart/viviann/large.png",
 			"small" : "heroes/rampart/viviann/small.png"
 		},
-		"army" : [
+		"army" :
+		[
 			{
 				"creature" : "woodElf",
 				"max" : 4,
@@ -38,7 +43,8 @@
 				"min" : 1
 			}
 		],
-		"skills" : [
+		"skills" :
+		[
 			{
 				"level" : "basic",
 				"skill" : "naturesFury"

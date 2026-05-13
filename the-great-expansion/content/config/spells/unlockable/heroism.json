@@ -1,25 +1,27 @@
 {
-	"heroism" : {
-		"type" : "combat",
-		"targetType" : "CREATURE",
-		"name" : "Heroism",
+    "heroism":
+    {   
+        "type": "combat",
+        "targetType":"CREATURE",
+        "name": "Heroism",
 		"school" : {
 			"air" : false,
 			"earth" : false,
 			"fire" : true,
 			"water" : false
 		},
-		"level" : 5,
-		"power" : 10,
-		"defaultGainChance" : 11,
-		"gainChance" : {
+        "level": 5,
+        "power": 10,
+        "defaultGainChance": 11, 
+        "gainChance":
+        {
 			"rampart" : 9,
 			"tower" : 9,
 			"inferno" : 9,
 			"necropolis" : 7,
 			"dungeon" : 14,
 			"conflux" : 9
-		},
+        },
 
 		"targetCondition" : {
 			"allOf" : {},
@@ -27,7 +29,7 @@
 			"noneOf" : {}
 		},
 		"flags" : {
-			"positive" : true
+			"positive": true
 		},
 
 		"graphics" : {
@@ -46,14 +48,12 @@
 		"sounds" : {
 			"cast" : "spells/heroism/sfx.wav"
 		},
-
+		
 		"levels" : {
-			"base" : {
+			"base":{
 				"range" : "0",
-				"power" : 10, //power value was missing in original files, it's placeholder
-				"targetModifier" : {
-					"smart" : true
-				},
+				"power": 10, //power value was missing in original files, it's placeholder
+				"targetModifier":{"smart":true},
 				"effects" : {
 					"attack" : {
 						"type" : "PRIMARY_SKILL",
@@ -100,7 +100,7 @@
 
 				"cost" : 25
 			},
-			"advanced" : {
+			"advanced":{
 				"description" : "{Advanced Heroism}\n\nIncreases Attack, Defense, Damage, Health and Speed of a single unit. The bonus is 66% more effective than Basic Heroism.",
 
 				"cost" : 25,
@@ -122,7 +122,8 @@
 					}
 				}
 			},
-			"expert" : {
+			"expert":{
+				
 				"description" : "{Expert Heroism}\n\nIncreases Attack, Defense, Damage, Health and Speed of a single unit. The bonus is 133% more effective than Basic Heroism.",
 				"cost" : 25,
 				"effects" : {
@@ -144,5 +145,5 @@
 				}
 			}
 		}
-	}
+    }
 }

@@ -8,7 +8,7 @@
 			},
 			"healthFlat" : {
 				"type" : "STACK_HEALTH",
-				"val" : 1
+				"val" : 1,
 			}
 		},
 		"type" : [

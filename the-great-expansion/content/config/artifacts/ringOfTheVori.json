@@ -1,10 +1,11 @@
 {
 	"ringOfTheVori" : {
 		"bonuses" : {
-			"spellfrostRing" : {
-				"type" : "SPELL",
+			"spellfrostRing" :
+			{
+				"type": "SPELL",
 				"val" : 3,
-				"subtype" : "spell.frostRing"
+				"subtype": "spell.frostRing"
 			},
 			"frostRingBonus" : {
 				"type" : "SPECIFIC_SPELL_DAMAGE",

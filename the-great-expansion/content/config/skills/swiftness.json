@@ -37,9 +37,7 @@
 		"basic" : {
 			"description" : "{Basic Swiftness}\n\nIncreases Speed of units of tiers 1-2 in the hero's army by 1.",
 			"effects" : {
-				"speed" : {
-					"val" : 1
-				}
+				"speed" : { "val" : 1 }
 			},
 			"images" : {
 				"small" : "skills/swiftness/icons/small/basic",
@@ -51,7 +49,7 @@
 		"advanced" : {
 			"description" : "{Advanced Swiftness}\n\nIncreases Speed of all units in the hero's army by 1 and speed of tier 1 units by an additional 1.",
 			"effects" : {
-				"speed" : {
+				"speed" : { 
 					"val" : 1,
 					"limiters" : [
 						{
@@ -62,7 +60,7 @@
 					]
 				},
 				"speed2" : {
-					"val" : 1,
+					"val" : 1 ,
 					"limiters" : [
 						{
 							"type" : "CREATURE_LEVEL_LIMITER",
@@ -82,7 +80,7 @@
 		"expert" : {
 			"description" : "{Expert Swiftness}\n\nIncreases Speed of all units in the hero's army by 1 and speed of tier 1-5 units by an additional 1.",
 			"effects" : {
-				"speed" : {
+				"speed" : { 
 					"val" : 1,
 					"limiters" : [
 						{
@@ -93,7 +91,7 @@
 					]
 				},
 				"speed2" : {
-					"val" : 1,
+					"val" : 1 ,
 					"limiters" : [
 						{
 							"type" : "CREATURE_LEVEL_LIMITER",

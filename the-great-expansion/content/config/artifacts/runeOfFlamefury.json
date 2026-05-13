@@ -13,7 +13,8 @@
 				"val" : -11,
 				"valueType" : "BASE_NUMBER"
 			},
-			"fireShield" : {
+			"fireShield" :
+			{
 				"type" : "FIRE_SHIELD",
 				"val" : 20
 			}

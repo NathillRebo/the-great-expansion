@@ -1,30 +1,33 @@
 {
-	"evelyn" : {
+	"evelyn" :
+	{
 		"class" : "cleric",
-		"spellbook" : [
-			"empower"
-		],
+		"spellbook": [ "empower" ],
 		"female" : true,
 		"special" : false,
 		"onlyOnWaterMap" : false,
 		"onlyOnMapWithoutWater" : false,
 
-		"texts" : {
+		"texts" :
+		{
 			"name" : "Evelyn",
 			"biography" : "For decades, griffins were used as mighty beasts that stay in the middle of combat and fight relentlessly. Evelynn focused on their flying properties and taught them how to attack without engaging in prolonged duels. Thanks to this, griffins in her army stay healthy, if somewhat suspicious of the other humans.",
-			"specialty" : {
+			"specialty" :
+			{
 				"description" : "Griffins and Royal Griffins in the hero's army gain No Enemy Retaliation ability and their Speed and Max Damage increase by 1 every 10 hero levels.",
 				"tooltip" : "Creature Bonus: Griffins",
 				"name" : "Griffins"
 			}
 		},
-		"images" : {
+		"images" :
+		{
 			"specialtySmall" : "heroes/castle/evelyn/specSmall.png",
 			"specialtyLarge" : "heroes/castle/evelyn/specLarge.png",
 			"large" : "heroes/castle/evelyn/large.png",
 			"small" : "heroes/castle/evelyn/small.png"
 		},
-		"army" : [
+		"army" :
+		[
 			{
 				"creature" : "pikeman",
 				"max" : 20,
@@ -41,7 +44,8 @@
 				"min" : 4
 			}
 		],
-		"skills" : [
+		"skills" :
+		[
 			{
 				"level" : "basic",
 				"skill" : "gryphonheartLegacy"
@@ -51,14 +55,14 @@
 				"skill" : "channeling"
 			}
 		],
-
+		
 		"specialty" : {
 			"bonuses" : {
 				"griffinSpeed" : {
 					"type" : "STACKS_SPEED",
 					"val" : 1,
 					"valueType" : "BASE_NUMBER",
-					"limiters" : [
+					"limiters": [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "griffin",
@@ -76,7 +80,7 @@
 					"subtype" : "creatureDamageMax",
 					"val" : 1,
 					"valueType" : "ADDITIVE_VALUE",
-					"limiters" : [
+					"limiters": [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "griffin",
@@ -91,7 +95,7 @@
 				},
 				"griffinSkills" : {
 					"type" : "BLOCKS_RETALIATION",
-					"limiters" : [
+					"limiters": [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "griffin",

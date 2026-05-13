@@ -1,12 +1,26 @@
 {
-	"name" : "The Great Expansion Beta",
+	"name" : "The Great Expansion",
 	"description" : "This mod adds: \n\n• 135 new artifacts\n\n• 36 new heroes\n\n• 43 new secondary skills\n\n• 14 new map objects\n\n• 39 new spells\n\n\n\nThe mod also changes some of the game configs:\n\n• Creatures can equip creature artifacts\n\nFor more info, check the THE GREAT EXPANSION.pdf.",
 	"modType" : "Expansion",
-	"author" : "Nathill; megan1999 (russian translation), Toriko (some icons), Assets are from: Heroes of Might and Magic II, Heroes of Might and Magic IV, Heroes of Might and Magic V, Epic War IV, Towers Tactics: Aphelion, Warcraft III, League of Legends, Tibia, Sonny 2",
+	"author" : "Nathill; Assets are from: Heroes of Might and Magic II, Heroes of Might and Magic IV, Heroes of Might and Magic V, Epic War IV, Towers Tactics: Aphelion, Warcraft III, League of Legends, Tibia, Sonny 2",
 	"contact" : "",
-	"version" : "0.4.0",
-	"changelog" : {
-		"0.4.0" : [
+	"version" : "0.4.1",
+	"changelog" : 
+	{
+		"0.4.1":
+		[
+			"Artifact: Boots of Haste: Changed identifier to differentiate the item from WoG's Boots of Haste."
+			"Spell: Acid Burst: Damage increased from 5/5/10/15 + 5*SPP to 7/7/14/21 + 7*SPP. Mana cost increased from 5 to 7.",
+			"Spell: Blizzard: Fixed tooltip of Expert Blizzard.",
+			"Spell: Destiny: Also reduces Max Health by 3/4/5.",
+			"Spell: Disarm: Melee damage reduction reduced from 20/20/33/33 to 15/15/25/25%.",
+			"Spell: Dominate: Fixed tooltip of Expert Dominate. Mana cost reduced from 32/27 to 30/25. Health threshold increased from 25/25/50/125 + 60*SPP to 75/75/150/300 + 75*SPP.",
+			"Spell: Venom: Max Health reduction reduced from 10/10/20/20% to 7/7/15/15%.",
+			"Spell: Vitality: Max Health bonus reduced from 10/10/20/20 to 8/8/15/15%.",
+			"Miscellanous: Fixed mod name"
+		],
+		"0.4.0" : 
+		[
 			"New artifacts: Arcamaster Ring (+1 spell per turn), Autumn Charm (Casts Expert Wither for 10 turns at the start of each combat), Barbarian Shield (+1 DEF, -10% ranged damage received), Beholder Shield (+4DEF & SPP, grants Ranged Retaliation), Blacksteel Ring (-1 Morale and Luck to enemies), Blood Charm (+1 Damage), Morning Star (+6 KNW, +4 Sight Radius, +400 Move Points on land), Paragon Rune (+2 Attack, Defense, Damage, Speed and Morale), Pirate Boots (+2 Tactics), Pirate Vest (+1 ATK and DEF), Quagmire Rod (+4 SPP & KNW, cast Quicksand at the start of each combat), Ring of the Gog (+25% Fireball damage, grants Expert Fireball), Rune of Arcane Mastery (+2 casts, an cast Expert Bless, Blind and Slow), Rune of Audacious Champion (+7 Speed and Jousting to a creature), Rune of Berserk (Grants Double Attack and Mind Immunity to a creature), Rune of Close Combat (Ranged stack gains +4 Attack, +4 Defense, +50% Health, but also can't shoot), Rune of the Earthlord (Stack gains +3 Defense, Immunity to level 1-3 spells and receives 30% less damage from melee attacks), Rune of Flamefury (+16 Attack, -11 Defense, Fire Shield 20%), Rune of the Skylord (+3 Speed, +1 Luck, +3 Attack, +1 Retaliation, -30% ranged damage received, +20% spell deflection), Stoneheel Totem (Casts Expert Slow for 3 turns at the start of each combat), Treads of Enlightenment (+1 Speed to army, +20% XP gained), Wolf Charm (+1 Max Damage)",
 			"New heroes: Traugutt (Knight, Specialty in Explorer), Evelyn (Cleric, Gives Speed, Max Damage and No Enemy Retaliation to Griffins), Vivian (Ranger, Gives Max Damage to Tier 3+ units), Rindell (Druid, Gains Spellpower), Tarq (Gremlins' Repair is better and has an additional use), Mayed (Volt specialty), Pyraeus (Fire Resistance specialty), Rubyhexa (Imp specialty), Lilian (Most debuffs increase damage received), Severan (Zombie specialty), Adhara (Morale specialty), Sapphire (Intervention specialty), Diev (Attack and Speed during the first round of each combat)",
 			"New map objects: Cursed Pyramid (Fight Mummies, Black Knights and/or Dread Knights to get Gold and Artifacts), Deserter Tower (Fight Pikemen to gain Attack/Defense permanently and maybe a Treasure artifact), Dragon Haven (fight t7 monsters to gain one of the legendary dragons), Ivory Tower (Fight Enchanters to gain Gold, Gems and Spellpower/Knowledge), Orcish Tunnels (Fight Orcs to gain permanent damage bonus to melee units, plus some gold and crystals)",
@@ -24,10 +38,12 @@
 		"0.3.2" : [
 			"Added Russian translation (Thank you, megan1999)"
 		],
-		"0.3.1" : [
+		"0.3.1" : 
+		[
 			"Fixed Expert Corpse Lord using icon of Advanced Corpse Lord."
 		],
-		"0.3.0" : [
+		"0.3.0" : 
+		[
 			"Added 17 new secondary skills: Explorer (increases movement points on both land and sea, available only to Knights and Clerics), Mining (grants bonus daily gold depending on the number of dwarves in the hero's army, available only to Rangers and Druids), Battleforge (grants Receptive to Gargoyles and Golems, increases Health of Gargoyles and Speed of Golems, available only for Alchemists and Wizards), Imposing Presence (Increases chance of neutral units to join the hero's army and increases the army's morale, available only for Overlords and Warlocks), Elemental Summoning (Increases the amount of elementals summoned by the Summon Air Elemental, Summon Earth Elemental, Summon Fire Elemental and Summon Water Elemental spells by 12/24/36%, available only for Planeswalkers and Elementalists), Shamanic Lore (Increases effectiveness of Bloodlust, Counterstrike, Fire Shield and Haste spells, available only for Barbarians and Battle Mages), Tatalian Tactics (no wall penalty for lizardman warriors, additional retaliation to serpent flies and wyverns, available only for Beastmasters and Witches), Fire Resistance (reduces incoming damage from fire spells and attacks by 12/24/36%, available only for Demoniacs and Heretics), Gryphonheart's Legacy (buffs griffins, available only to Knights and Clerics), Nature's Fury (boosts max damage of creatures of tier 3+, available only to Rangers and Druids), Bracadan Magic (boosts Haste, Fortune, Hypnotize and Chain Lightning, available only to Alchemists and Wizards), Vermin Lord (upgrades imps, available only to Demoniacs and Heretics), Corpse Lord (increases Zombie Speed, also makes Necromancy raise Zombies instead of Skeletons, available only to Death Knights and Necromancers), Nighonian Sorcery (boosts Stoneskin, Lightning Bolt, Haste and Meteor Shower, available only to Overlords and Warlocks), Onslaught (grants +3/6/9 Attack and +1/2/3 Speed to your army during the first round of combat, available only to Barbarians and Battle Mages), Absolute Defense (reduces physical damage received by units in the hero's arby by 20/30/40% during the first round of battle, available only to Beastmasters and Witches), Elemental Affinity (Protection from Element spells grants bonuses to stats, available only to Planeswalkers and Elementalists)",
 			"Added 6 new spells: Anchor (1st level air spell that reduces armor and makes it unable to move, but like Blind, is removed via damage), Cold Death (5th level water spell that kills # of units), Combustion (high base, poor scaling 1st level fire damage spell), Defender (2nd level earth spell, increases Defense greatly for units that take the Defend action), Doom (5th level earth spell that greatly reduces the target's parameters by a percentage), Lightning Reflexes (4th level air spell which gives 'Attack and Return' and 'Blocks enemy retaliation' abilities)",
 			"Added 17 new artifacts: Barbarian Throwing Club (treasure misc, increases melee damage of ranged units), Mail of Enlightment (major torso, increases spellpower and XP gained), Turban of Enlightenment (minor head, increases knowledge and XP gained), Infernal Rune (major creature, increases max Health and grants Fire Shield), Phoenix Feather Cape (treasure cape, increases fire damage slightly), Axe of the Jotunns (major weapon, gives attack and weakness immunity), Shield of the Jotunns (major shield, gives defense and Berserk immunity), Helm of the Jotunns (major helm, gives knowledge and Blind immunity), Armor of the Jotunns (major torso, gives defense and Implosion immunity), Greaves of the Jotunns (gives attack and Slow immunity), Fimbulwinter (gives 20% magic resistance and reduces incoming damage by 20%, builds out of five Jotunn items), Azure Cape (treasure cape, increases water damage slightly), Aetherwing Cape (treasure cape, increases air damage slightly), Geomancer's Cloak (treasure cape, increases earth damage slightly), Inventor's Shield (major shield, increases max health of war machines by 250), Ranger's Quiver (treasure cape, grants 4 shots and 1 speed to ranged units), Beholder Helmet (major helm, +3 spellpower and knowledge, ranged units have 20% chance to apply blind)",
@@ -37,12 +53,14 @@
 			"Fixed some tooltips",
 			"Moved the \"added content\" from mod.json file to separate document that can be found inside the mod's folder"
 		],
-		"0.2.1" : [
+		"0.2.1" : 
+		[
 			"Added Polish translation",
 			"Removed all gameConfig settings changes except of activating creature artifacts",
 			"Fixed description of Gram's specialty, it now reads properly that it reduces damage received rather than increases damage dealt."
 		],
-		"0.2.0" : [
+		"0.2.0" : 
+		[
 			"Added 16 new hero: Willis (Ranger), Qlinn (Alchemist), Davin (Wizard), Naubb (Demoniac), Zebeth (Heretic), Shavi (Deathknight), Sildd (Necromancer), Scarla (Overlord), Neirith (Warlock), Koruga (Barbarian), Amani (Battlemage), Gram (Beastmaster), Forbest (Witch), Aery (Planeswalker), Tempestus (Planeswalker), Silis (Elementalist)",
 			"Reduced Electromancy damage from 0/100/200 + 8xSPP to 0/35/75 + 3xSPP",
 			"Added 1 new skill: Irresistible Magic",
@@ -52,14 +70,17 @@
 			"Fixed some bugs with spells targeting location instead of creature",
 			"Removed some unnecessary files"
 		],
-		"0.1" : [
+		"0.1" : 
+		[
 			"Created"
 		]
 	},
-	"polish" : {
+	"polish" : 
+	{
 		"name" : "Wspaniałe rozszerzenie - Beta",
 		"description" : "Ten mod dodaje:\n\n• 135 nowych artefaktów\n\n• 36 nowych bohaterów\n\n• 43 nowe umiejętności drugorzędne\n\n• 14 obiektów mapy przygody\n\n• 39 zaklęć\n\n\n\nPonadto ten mod zmienia pewne ustawienia gry:\n\n• Jednostki mogą używać artefaktów.",
-		"translations" : [
+		"translations" : 
+		[
 			"translation/polish/artifacts.json",
 			"translation/polish/heroes.json",
 			"translation/polish/mapObjects.json",
@@ -78,7 +99,8 @@
 			"translation/russian/spells.json"
 		]
 	},
-	"artifacts" : [
+	"artifacts" : 
+	[
 		"config/artifacts/aetherwingCape",
 		"config/artifacts/ankhOfLife",
 		"config/artifacts/arborealRing",
@@ -215,10 +237,12 @@
 		"config/artifacts/wolfFang",
 		"config/artifacts/wyvernFang"
 	],
-	"heroClasses" : [
+	"heroClasses" : 
+	[
 		"config/skills/secondarySkillChances"
 	],
-	"heroes" : [
+	"heroes" : 
+	[
 		"config/heroes/castle/evelyn",
 		"config/heroes/castle/kaite",
 		"config/heroes/castle/maurice",
@@ -256,7 +280,8 @@
 		"config/heroes/conflux/tempestus",
 		"config/heroes/conflux/aery"
 	],
-	"objects" : [
+	"objects" : 
+	[
 		"config/mapObjects/arcaneTower",
 		"config/mapObjects/banditHideout",
 		"config/mapObjects/beastmastersHut",
@@ -273,12 +298,15 @@
 		"config/mapObjects/treasurePile2",
 		"config/mapObjects/tribalTotem"
 	],
-	"settings" : {
-		"modules" : {
+	"settings" : 
+	{
+		"modules" : 
+		{
 			"stackArtifact" : true
 		}
 	},
-	"skills" : [
+	"skills" : 
+	[
 		"config/skills/absoluteDefense",
 		"config/skills/arcana",
 		"config/skills/battleforge",
@@ -323,7 +351,8 @@
 		"config/skills/verminLord",
 		"config/skills/vitality"
 	],
-	"spells" : [
+	"spells" : 
+	[
 		"config/spells/blocked/absoluteDefense",
 		"config/spells/blocked/instantLightning",
 		"config/spells/blocked/onslaught",

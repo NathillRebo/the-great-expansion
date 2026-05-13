@@ -20,9 +20,7 @@
 		"basic" : {
 			"description" : "{Basic Absolute Defense}\n\nUnits under the hero's control receive 20% less damage from physical attacks during the first round of combat.",
 			"effects" : {
-				"main" : {
-					"addInfo" : 1
-				}
+				"main" : { "addInfo" : 1 }
 			},
 			"images" : {
 				"small" : "skills/absoluteDefense/icons/small/basic",
@@ -34,9 +32,7 @@
 		"advanced" : {
 			"description" : "{Advanced Absolute Defense}\n\nUnits under the hero's control receive 30% less damage from physical attacks during the first round of combat.",
 			"effects" : {
-				"main" : {
-					"addInfo" : 2
-				}
+				"main" : { "addInfo" : 2 }
 			},
 			"images" : {
 				"small" : "skills/absoluteDefense/icons/small/advanced",
@@ -48,9 +44,7 @@
 		"expert" : {
 			"description" : "{Expert Absolute Defense}\n\nUnits under the hero's control receive 40% less damage from physical attacks during the first round of combat.",
 			"effects" : {
-				"main" : {
-					"addInfo" : 3
-				}
+				"main" : { "addInfo" : 3 }
 			},
 			"images" : {
 				"small" : "skills/absoluteDefense/icons/small/expert",

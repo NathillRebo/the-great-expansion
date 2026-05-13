@@ -1,10 +1,11 @@
 {
 	"eldritchWand" : {
 		"bonuses" : {
-			"spellMagicArrow" : {
-				"type" : "SPELL",
+			"spellMagicArrow" :
+			{
+				"type": "SPELL",
 				"val" : 3,
-				"subtype" : "spell.magicArrow"
+				"subtype": "spell.magicArrow"
 			},
 			"magicArrowBonus" : {
 				"type" : "SPECIFIC_SPELL_DAMAGE",

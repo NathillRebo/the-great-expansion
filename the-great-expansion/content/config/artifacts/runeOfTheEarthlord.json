@@ -13,7 +13,8 @@
 				"valueType" : "BASE_NUMBER",
 				"val" : 30
 			},
-			"spellImmunity" : {
+			"spellImmunity" :
+			{
 				"type" : "LEVEL_SPELL_IMMUNITY",
 				"val" : 3
 			}
