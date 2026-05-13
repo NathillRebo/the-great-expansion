@@ -2,7 +2,7 @@
 	"acidBurst" : {
 		"type" : "combat",
 		"name" : "Acid Burst",
-		"targetType": "LOCATION",
+		"targetType" : "LOCATION",
 		"school" : {
 			"air" : false,
 			"earth" : true,
@@ -10,9 +10,8 @@
 			"water" : false
 		},
 		"level" : 1,
-        "defaultGainChance": 15, 
-        "gainChance":
-        {
+		"defaultGainChance" : 15,
+		"gainChance" : {
 			"castle" : 13,
 			"rampart" : 14,
 			"tower" : 14,
@@ -22,7 +21,7 @@
 			"stronghold" : 12,
 			"fortress" : 12,
 			"conflux" : 13
-        },
+		},
 		"power" : 7,
 		"flags" : {
 			"damage" : true,
@@ -44,15 +43,19 @@
 		"sounds" : {
 			"cast" : "spells/acidBurst/sfx.wav"
 		},
-		
+
 		"levels" : {
 			"base" : {
 				"range" : "0-1",
 				"power" : 0,
 				"battleEffects" : {
-					"directDamage" : {"type":"core:damage"}
+					"directDamage" : {
+						"type" : "core:damage"
+					}
 				},
-				"targetModifier":{"smart":false},
+				"targetModifier" : {
+					"smart" : false
+				},
 				"cost" : 7
 			},
 			"none" : {

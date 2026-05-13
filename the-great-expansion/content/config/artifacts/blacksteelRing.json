@@ -9,7 +9,7 @@
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
 				"limiters" : [
 					"OPPOSITE_SIDE"
-				],
+				]
 			},
 			"luck" : {
 				"type" : "LUCK",
@@ -19,7 +19,7 @@
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
 				"limiters" : [
 					"OPPOSITE_SIDE"
-				],
+				]
 			}
 		},
 		"type" : [

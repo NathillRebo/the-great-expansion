@@ -1,32 +1,27 @@
 {
-	"adhara" :
-	{
+	"adhara" : {
 		"class" : "overlord",
 		"female" : true,
 		"special" : false,
 		"onlyOnWaterMap" : false,
 		"onlyOnMapWithoutWater" : false,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Adhara",
 			"biography" : "It is told that Adhara can lead the most exotic armies. It is no surprise, considering she was a slave that fought alongside other slaves from multiple factions, and managed to become and overlord.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "The hero's Morale is increased by 1 every 6 hero levels.",
 				"tooltip" : "Skill Bonus: Leadership",
 				"name" : "Leadership"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "heroes/dungeon/adhara/specSmall.png",
 			"specialtyLarge" : "heroes/dungeon/adhara/specLarge.png",
 			"large" : "heroes/dungeon/adhara/large.png",
 			"small" : "heroes/dungeon/adhara/small.png"
 		},
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "troglodyte",
 				"max" : 30,
@@ -43,8 +38,7 @@
 				"min" : 3
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "imposingPresence"

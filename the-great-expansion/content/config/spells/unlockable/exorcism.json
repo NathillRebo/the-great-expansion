@@ -2,7 +2,7 @@
 	"exorcism" : {
 		"type" : "combat",
 		"name" : "Exorcism",
-		"targetType": "CREATURE",
+		"targetType" : "CREATURE",
 		"school" : {
 			"air" : true,
 			"earth" : false,
@@ -10,9 +10,8 @@
 			"water" : false
 		},
 		"level" : 1,
-        "defaultGainChance": 7, 
-        "gainChance":
-        {
+		"defaultGainChance" : 7,
+		"gainChance" : {
 			"castle" : 12,
 			"rampart" : 8,
 			"tower" : 8,
@@ -22,7 +21,7 @@
 			"stronghold" : 2,
 			"fortress" : 2,
 			"conflux" : 4
-        },
+		},
 		"power" : 30,
 		"flags" : {
 			"damage" : true,
@@ -35,10 +34,15 @@
 			"iconEffect" : "spells/exorcism/effect"
 		},
 		"animation" : {
-			"affect":[{"defName" : "C14SPA0", "transparency" : 0.5}]
+			"affect" : [
+				{
+					"defName" : "C14SPA0",
+					"transparency" : 0.5
+				}
+			]
 		},
 		"sounds" : {
-			"cast": "SACBRETH"
+			"cast" : "SACBRETH"
 		},
 		"targetCondition" : {
 			"allOf" : {
@@ -50,9 +54,13 @@
 				"range" : "0",
 				"power" : 0,
 				"battleEffects" : {
-					"directDamage" : {"type":"core:damage"}
+					"directDamage" : {
+						"type" : "core:damage"
+					}
 				},
-				"targetModifier":{"smart":true},
+				"targetModifier" : {
+					"smart" : true
+				},
 				"cost" : 5
 			},
 			"none" : {

@@ -1,13 +1,11 @@
 {
 	"runeOfBerserk" : {
 		"bonuses" : {
-			"extraAttack" :
-			{
+			"extraAttack" : {
 				"type" : "ADDITIONAL_ATTACK",
 				"val" : 1
 			},
-			"immuneToMind" : 
-			{
+			"immuneToMind" : {
 				"type" : "MIND_IMMUNITY"
 			}
 		},

@@ -2,7 +2,7 @@
 	"sunder" : {
 		"type" : "combat",
 		"name" : "Sunder",
-		"targetType": "NO_TARGET",
+		"targetType" : "NO_TARGET",
 		"school" : {
 			"air" : false,
 			"earth" : false,
@@ -10,20 +10,19 @@
 			"water" : true
 		},
 		"level" : 5,
-        "defaultGainChance": 11, 
-        "gainChance":
-        {
+		"defaultGainChance" : 11,
+		"gainChance" : {
 			"rampart" : 11,
 			"tower" : 9,
 			"inferno" : 3,
 			"necropolis" : 10,
 			"dungeon" : 10,
 			"conflux" : 4
-        },
+		},
 		"power" : 10,
 		"flags" : {
 			"damage" : true,
-			"indifferent": true
+			"indifferent" : true
 		},
 		"graphics" : {
 			"iconBook" : "spells/sunder/book",
@@ -31,14 +30,14 @@
 			"iconScenarioBonus" : "spells/sunder/scenario",
 			"iconEffect" : "spells/sunder/effect"
 		},
-		
+
 		"levels" : {
 			"base" : {
 				"power" : 10,
 				"range" : "X",
 				"battleEffects" : {
 					"obstacle" : {
-						"type":"core:obstacle",
+						"type" : "core:obstacle",
 						"hidden" : true,
 						"passable" : true,
 						"trap" : false,
@@ -46,19 +45,21 @@
 						"removeOnTrigger" : false,
 						"patchCount" : 4,
 						"turnsRemaining" : -1,
-						"attacker" :{
+						"attacker" : {
 							"animation" : "spells/sunder/spell_idle.json",
 							"appearAnimation" : "spells/sunder/spell_appear.json",
 							"appearSound" : "spells/sunder/spawn.wav"
 						},
-						"defender" :{
+						"defender" : {
 							"animation" : "spells/sunder/spell_idle.json",
 							"appearAnimation" : "spells/sunder/spell_appear.json",
 							"appearSound" : "spells/sunder/spawn.wav"
 						}
 					}
 				},
-				"targetModifier":{"smart":true},
+				"targetModifier" : {
+					"smart" : true
+				},
 				"cost" : 27
 			},
 			"none" : {
@@ -75,8 +76,8 @@
 				"description" : "{Advanced Sunder}\n\nCreates several traps that deal water damage to enemies that pass through.\n\nSpawns two traps more, and each trap deals an additional 25 more damage than Basic Sunder.",
 				"power" : 50,
 				"cost" : 22,
-				"battleEffects":{
-					"obstacle":{
+				"battleEffects" : {
+					"obstacle" : {
 						"patchCount" : 6
 					}
 				}
@@ -85,8 +86,8 @@
 				"description" : "{Expert Sunder}\n\nCreates several traps that deal water damage to enemies that pass through.\n\nSpawns four traps more, and each trap deals an additional 75 more damage than Basic Sunder.",
 				"power" : 100,
 				"cost" : 22,
-				"battleEffects":{
-					"obstacle":{
+				"battleEffects" : {
+					"obstacle" : {
 						"patchCount" : 8
 					}
 				}

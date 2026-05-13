@@ -1,33 +1,30 @@
 {
-	"karl" :
-	{
+	"karl" : {
 		"class" : "elementalist",
-		"spellbook": [ "haste" ],
+		"spellbook" : [
+			"haste"
+		],
 		"female" : false,
 		"special" : false,
 		"onlyOnWaterMap" : false,
 		"onlyOnMapWithoutWater" : false,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Karl",
 			"biography" : "Karl is a master of elements, bending them to his will as he wishes. He uses them and discard them as his mood dictates. At it often changes.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Air Elementals, Water Elementals, Fire Elementals and Earth Elementals can be freely swapped. Also increases their Speed by 1.",
 				"tooltip" : "Unique Bonus: Four Elementals",
 				"name" : "Four Elementals"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "heroes/conflux/karl/specSmall.png",
 			"specialtyLarge" : "heroes/conflux/karl/specLarge.png",
 			"large" : "heroes/conflux/karl/large.png",
 			"small" : "heroes/conflux/karl/small.png"
 		},
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "earthElemental",
 				"max" : 5,
@@ -44,8 +41,7 @@
 				"min" : 3
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "elementalAffinity"
@@ -182,7 +178,7 @@
 					"type" : "STACKS_SPEED",
 					"val" : 1,
 					"valueType" : "BASE_NUMBER",
-					"limiters": [
+					"limiters" : [
 						"anyOf",
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
@@ -205,7 +201,7 @@
 							"includeUpgrades" : true
 						}
 					]
-				},
+				}
 			}
 		}
 	}

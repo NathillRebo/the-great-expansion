@@ -2,7 +2,7 @@
 	"vitality" : {
 		"type" : "combat",
 		"name" : "Vitality",
-		"targetType": "CREATURE",
+		"targetType" : "CREATURE",
 		"school" : {
 			"air" : false,
 			"earth" : false,
@@ -10,9 +10,8 @@
 			"water" : true
 		},
 		"level" : 2,
-        "defaultGainChance": 7, 
-        "gainChance":
-        {
+		"defaultGainChance" : 7,
+		"gainChance" : {
 			"castle" : 11,
 			"rampart" : 10,
 			"necropolis" : 6,
@@ -20,7 +19,7 @@
 			"stronghold" : 11,
 			"fortress" : 10,
 			"conflux" : 8
-        },
+		},
 		"power" : 10,
 		"flags" : {
 			"positive" : true
@@ -61,7 +60,6 @@
 						"duration" : "N_TURNS"
 					}
 				}
-				
 			},
 			"none" : {
 				"description" : "{Vitality}\n\nIncreases the target's Max Health for the duration of the spell."

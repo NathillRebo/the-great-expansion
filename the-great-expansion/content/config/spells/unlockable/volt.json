@@ -2,7 +2,7 @@
 	"volt" : {
 		"type" : "combat",
 		"name" : "Volt",
-		"targetType": "CREATURE",
+		"targetType" : "CREATURE",
 		"school" : {
 			"air" : true,
 			"earth" : false,
@@ -10,9 +10,8 @@
 			"water" : false
 		},
 		"level" : 4,
-        "defaultGainChance": 8, 
-        "gainChance":
-        {
+		"defaultGainChance" : 8,
+		"gainChance" : {
 			"castle" : 5,
 			"rampart" : 5,
 			"tower" : 5,
@@ -20,7 +19,7 @@
 			"necropolis" : 9,
 			"dungeon" : 8,
 			"conflux" : 10
-        },
+		},
 		"power" : 45,
 		"flags" : {
 			"damage" : true,
@@ -42,20 +41,24 @@
 		"sounds" : {
 			"cast" : "spells/volt/sfx.wav"
 		},
-		
+
 		"levels" : {
 			"base" : {
 				"range" : "0",
 				"power" : 65,
 				"battleEffects" : {
-					"directDamage" : {"type":"core:damage"},
-					"dispel":{
-						"type":"core:dispel",
-						"optional":true,
-						"dispelPositive":true
+					"directDamage" : {
+						"type" : "core:damage"
+					},
+					"dispel" : {
+						"type" : "core:dispel",
+						"optional" : true,
+						"dispelPositive" : true
 					}
 				},
-				"targetModifier":{"smart":true},
+				"targetModifier" : {
+					"smart" : true
+				},
 				"cost" : 24
 			},
 			"none" : {

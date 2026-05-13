@@ -1,33 +1,31 @@
 {
-    "lightningReflexes":
-    {   
-        "type": "combat",
-        "targetType":"CREATURE",
-        "name": "Lightning Reflexes",
+	"lightningReflexes" : {
+		"type" : "combat",
+		"targetType" : "CREATURE",
+		"name" : "Lightning Reflexes",
 		"school" : {
 			"air" : true,
 			"earth" : false,
 			"fire" : false,
 			"water" : false
 		},
-        "level": 4,
-        "power": 10,
-        "defaultGainChance": 7, 
-        "gainChance":
-        {
+		"level" : 4,
+		"power" : 10,
+		"defaultGainChance" : 7,
+		"gainChance" : {
 			"rampart" : 6,
 			"tower" : 11,
 			"necropolis" : 8,
 			"dungeon" : 5,
 			"conflux" : 8
-        },
+		},
 
 		"targetCondition" : {
 			"allOf" : {},
 			"anyOf" : {},
 			"noneOf" : {}
 		},
-		
+
 		"flags" : {
 			"positive" : true
 		},
@@ -48,7 +46,7 @@
 		"sounds" : {
 			"cast" : "spells/lightningReflexes/sfx.wav"
 		},
-		
+
 		"levels" : {
 			"base" : {
 				"range" : "0",
@@ -67,19 +65,19 @@
 			"none" : {
 				"description" : "{Lightning Reflexes}\n\nTarget unit returns to its starting point after attacking.",
 
-				"power": 10,
+				"power" : 10,
 				"cost" : 24
 			},
 			"basic" : {
 				"description" : "{Basic Lightning Reflexes}\n\nTarget unit returns to its starting point after attacking.",
 
-				"power": 10,
+				"power" : 10,
 				"cost" : 20
 			},
 			"advanced" : {
 				"description" : "{Advanced Lightning Reflexes}\n\nTarget unit returns to its starting point after attacking and blocks enemy retaliation.",
 
-				"power": 20,
+				"power" : 20,
 				"cost" : 20,
 				"effects" : {
 					"add" : {
@@ -94,7 +92,7 @@
 				"description" : "{Expert Lightning Reflexes}\n\nAll friendly units return to their starting point after attacking and block enemy retaliation.",
 
 				"range" : "X",
-				"power": 20,
+				"power" : 20,
 				"cost" : 20,
 				"effects" : {
 					"add" : {
@@ -106,6 +104,5 @@
 				}
 			}
 		}
-    }
-
+	}
 }

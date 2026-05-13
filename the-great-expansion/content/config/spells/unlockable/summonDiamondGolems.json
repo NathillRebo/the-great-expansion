@@ -1,30 +1,30 @@
 {
 	"summonDiamondGolems" : {
-		"type": "combat",
-        "name": "Summon Diamond Golems",
+		"type" : "combat",
+		"name" : "Summon Diamond Golems",
 		"targetType" : "NO_TARGET",
-        "school": {
-            "air": true,
-            "earth": false,
-            "fire": false,
-            "water": false
-        },
-		"level": 5,
-		"defaultGainChance": 11,
+		"school" : {
+			"air" : true,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
+		},
+		"level" : 5,
+		"defaultGainChance" : 11,
 		"gainChance" : {
 			"tower" : 22
 		},
 		"power" : 56,
-        "flags": {
-            "indifferent": true
-        },
-        "animation": {
-            "cast": [
-                "C12SPF0.def"
-            ]
-        },
-		"sounds": {
-			"cast": "SUMNELM"
+		"flags" : {
+			"indifferent" : true
+		},
+		"animation" : {
+			"cast" : [
+				"C12SPF0.def"
+			]
+		},
+		"sounds" : {
+			"cast" : "SUMNELM"
 		},
 
 		"graphics" : {
@@ -33,18 +33,18 @@
 			"iconScenarioBonus" : "spells/summonDiamondGolems/scenario",
 			"iconEffect" : "spells/summonDiamondGolems/effect"
 		},
-		
+
 		"levels" : {
 			"base" : {
 				"range" : "X",
-                "cost": 30,
-                "power": 56,
+				"cost" : 30,
+				"power" : 56,
 				"battleEffects" : {
 					"summon" : {
 						"exclusive" : false,
-						"id":"diamondGolem",
+						"id" : "diamondGolem",
 						"summonByHealth" : true,
-						"type":"core:summon"
+						"type" : "core:summon"
 					}
 				}
 			},

@@ -1,28 +1,26 @@
 {
-    "innerFire":
-    {   
-        "type": "combat",
-        "targetType":"CREATURE",
-        "name": "Inner Fire",
+	"innerFire" : {
+		"type" : "combat",
+		"targetType" : "CREATURE",
+		"name" : "Inner Fire",
 		"school" : {
 			"air" : false,
 			"earth" : false,
 			"fire" : true,
 			"water" : false
 		},
-        "level": 5,
-        "power": 10,
-        "defaultGainChance": 10, 
-        "gainChance":
-        {
-            "castle" : 9,
+		"level" : 5,
+		"power" : 10,
+		"defaultGainChance" : 10,
+		"gainChance" : {
+			"castle" : 9,
 			"rampart" : 14,
 			"tower" : 14,
 			"inferno" : 14,
 			"necropolis" : 18,
 			"dungeon" : 9,
 			"conflux" : 14
-        },
+		},
 
 		"targetCondition" : {
 			"allOf" : {},
@@ -30,7 +28,7 @@
 			"noneOf" : {}
 		},
 		"flags" : {
-			"positive": true
+			"positive" : true
 		},
 
 		"graphics" : {
@@ -49,12 +47,14 @@
 		"sounds" : {
 			"cast" : "spells/innerFire/sfx.wav"
 		},
-		
+
 		"levels" : {
-			"base":{
+			"base" : {
 				"range" : "0",
-				"power": 10, //power value was missing in original files, it's placeholder
-				"targetModifier":{"smart":true},
+				"power" : 10, //power value was missing in original files, it's placeholder
+				"targetModifier" : {
+					"smart" : true
+				},
 				"effects" : {
 					"attack" : {
 						"type" : "PRIMARY_SKILL",
@@ -93,7 +93,7 @@
 
 				"cost" : 19
 			},
-			"advanced":{
+			"advanced" : {
 				"description" : "{Advanced Inner Fire}\n\nIncreases Attack, Speed, Morale and Luck of a single unit.\n\nThe bonus is twice as big as from Basic Inner Fire.",
 
 				"cost" : 19,
@@ -112,8 +112,7 @@
 					}
 				}
 			},
-			"expert":{
-				
+			"expert" : {
 				"description" : "{Expert Inner Fire}\n\nIncreases Attack, Speed, Morale and Luck of all friendly stacks.\n\nThe bonus is twice as big as from Basic Inner Fire.",
 				"cost" : 19,
 				"range" : "X",
@@ -133,5 +132,5 @@
 				}
 			}
 		}
-    }
+	}
 }

@@ -1,31 +1,31 @@
 {
 	"summonRogues" : {
-		"type": "combat",
-        "name": "Summon Rogues",
+		"type" : "combat",
+		"name" : "Summon Rogues",
 		"targetType" : "NO_TARGET",
-        "school": {
-            "air": true,
-            "earth": false,
-            "fire": false,
-            "water": false
-        },
-		"level": 3,
-		"defaultGainChance": 7, 
+		"school" : {
+			"air" : true,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
+		},
+		"level" : 3,
+		"defaultGainChance" : 7,
 		"gainChance" : {
 			"dungeon" : 11,
 			"fortress" : 11
 		},
 		"power" : 20,
-        "flags": {
-            "indifferent": true
-        },
-        "animation": {
-            "cast": [
-                "C12SPF0.def"
-            ]
-        },
-		"sounds": {
-			"cast": "SUMNELM"
+		"flags" : {
+			"indifferent" : true
+		},
+		"animation" : {
+			"cast" : [
+				"C12SPF0.def"
+			]
+		},
+		"sounds" : {
+			"cast" : "SUMNELM"
 		},
 
 		"graphics" : {
@@ -34,18 +34,18 @@
 			"iconScenarioBonus" : "spells/summonRogues/scenario",
 			"iconEffect" : "spells/summonRogues/effect"
 		},
-		
+
 		"levels" : {
 			"base" : {
 				"range" : "X",
-                "cost": 16,
-                "power": 4,
+				"cost" : 16,
+				"power" : 4,
 				"battleEffects" : {
 					"summon" : {
 						"exclusive" : false,
-						"id":"rogue",
+						"id" : "rogue",
 						"summonByHealth" : true,
-						"type":"core:summon"
+						"type" : "core:summon"
 					}
 				}
 			},

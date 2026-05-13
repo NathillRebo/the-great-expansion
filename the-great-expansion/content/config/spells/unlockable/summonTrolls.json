@@ -1,27 +1,27 @@
 {
 	"summonTrolls" : {
-		"type": "combat",
-        "name": "Summon Trolls",
+		"type" : "combat",
+		"name" : "Summon Trolls",
 		"targetType" : "NO_TARGET",
-        "school": {
-            "air": false,
-            "earth": true,
-            "fire": false,
-            "water": false
-        },
-		"level": 5,
-		"defaultGainChance": 11,
+		"school" : {
+			"air" : false,
+			"earth" : true,
+			"fire" : false,
+			"water" : false
+		},
+		"level" : 5,
+		"defaultGainChance" : 11,
 		"power" : 28,
-        "flags": {
-            "indifferent": true
-        },
-        "animation": {
-            "cast": [
-                "C12SPF0.def"
-            ]
-        },
-		"sounds": {
-			"cast": "SUMNELM"
+		"flags" : {
+			"indifferent" : true
+		},
+		"animation" : {
+			"cast" : [
+				"C12SPF0.def"
+			]
+		},
+		"sounds" : {
+			"cast" : "SUMNELM"
 		},
 
 		"graphics" : {
@@ -30,18 +30,18 @@
 			"iconScenarioBonus" : "spells/summonTrolls/scenario",
 			"iconEffect" : "spells/summonTrolls/effect"
 		},
-		
+
 		"levels" : {
 			"base" : {
 				"range" : "X",
-                "cost": 30,
-                "power": 28,
+				"cost" : 30,
+				"power" : 28,
 				"battleEffects" : {
 					"summon" : {
 						"exclusive" : false,
-						"id":"troll",
+						"id" : "troll",
 						"summonByHealth" : true,
-						"type":"core:summon"
+						"type" : "core:summon"
 					}
 				}
 			},

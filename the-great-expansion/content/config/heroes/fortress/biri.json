@@ -1,33 +1,30 @@
 {
-	"biri" :
-	{
+	"biri" : {
 		"class" : "witch",
-		"spellbook": [ "weakness" ],
+		"spellbook" : [
+			"weakness"
+		],
 		"female" : true,
 		"special" : false,
 		"onlyOnWaterMap" : false,
 		"onlyOnMapWithoutWater" : false,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Biri",
 			"biography" : "Biri curses her enemies in a way that her army can operate around her foes easily. Slow like a slug, they are easy pickings for the swamp-dwellers of Tatalia.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Enemies affected by Weakness and Poison have their Speed reduced by 2.",
 				"tooltip" : "Unique Bonus: Impairment",
 				"name" : "Impairment"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "heroes/fortress/biri/specSmall.png",
 			"specialtyLarge" : "heroes/fortress/biri/specLarge.png",
 			"large" : "heroes/fortress/biri/large.png",
 			"small" : "heroes/fortress/biri/small.png"
 		},
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "lizardman",
 				"max" : 6,
@@ -44,8 +41,7 @@
 				"min" : 1
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "tatalianTactics"
@@ -70,7 +66,7 @@
 							"bonusSourceType" : "SPELL_EFFECT",
 							"bonusSourceID" : "spell.weakness"
 						}
-					],
+					]
 				},
 				"poisonSlow" : {
 					"type" : "STACKS_SPEED",
@@ -84,7 +80,7 @@
 							"bonusSourceType" : "SPELL_EFFECT",
 							"bonusSourceID" : "spell.poison"
 						}
-					],
+					]
 				}
 			}
 		}

@@ -2,7 +2,7 @@
 	"coldDeath" : {
 		"type" : "combat",
 		"name" : "Cold Death",
-		"targetType": "CREATURE",
+		"targetType" : "CREATURE",
 		"school" : {
 			"air" : false,
 			"earth" : false,
@@ -10,13 +10,12 @@
 			"water" : true
 		},
 		"level" : 5,
-        "defaultGainChance": 18, 
-        "gainChance":
-        {
+		"defaultGainChance" : 18,
+		"gainChance" : {
 			"tower" : 22,
 			"inferno" : 16,
-			"necropolis" : 20,
-        },
+			"necropolis" : 20
+		},
 		"power" : 1,
 		"flags" : {
 			"damage" : true,
@@ -29,19 +28,26 @@
 			"iconEffect" : "spells/coldDeath/effect"
 		},
 		"animation" : {
-			"hit" : ["spells/coldDeath/spell.def"]
+			"hit" : [
+				"spells/coldDeath/spell.def"
+			]
 		},
 		"sounds" : {
-		   "cast" : "ICERAY"
+			"cast" : "ICERAY"
 		},
 		"levels" : {
 			"base" : {
 				"range" : "0",
 				"power" : 1,
 				"battleEffects" : {
-					"directDamage" : {"type":"core:damage", "killByCount": true}
+					"directDamage" : {
+						"type" : "core:damage",
+						"killByCount" : true
+					}
 				},
-				"targetModifier":{"smart":true},
+				"targetModifier" : {
+					"smart" : true
+				},
 				"cost" : 45
 			},
 			"none" : {
