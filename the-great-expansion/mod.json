@@ -9,7 +9,7 @@
 	{
 		"0.4.1":
 		[
-			"Artifact: Boots of Haste: Changed identifier to differentiate the item from WoG's Boots of Haste."
+			"Artifact: Boots of Haste: Changed identifier to differentiate the item from WoG's Boots of Haste.",
 			"Spell: Acid Burst: Damage increased from 5/5/10/15 + 5*SPP to 7/7/14/21 + 7*SPP. Mana cost increased from 5 to 7.",
 			"Spell: Blizzard: Fixed tooltip of Expert Blizzard.",
 			"Spell: Destiny: Also reduces Max Health by 3/4/5.",
